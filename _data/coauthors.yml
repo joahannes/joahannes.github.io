@@ -1,34 +1,40 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Villas":
+  - firstname: ["Leandro A",]
+    url: https://scholar.google.com.br/citations?user=YsMEnbYAAAAJ&hl=en
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Rosário":
+  - firstname: ["Denis",]
+    url: https://sites.google.com/view/dlrosario
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Sommer":
+  - firstname: ["Christoph",]
+    url: https://www.cms-labs.org/people/sommer/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Cerqueira":
+  - firstname: ["Eduardo",]
+    url: https://scholar.google.com.br/citations?user=6Oexn7IAAAAJ&hl=en
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Meneguette":
+  - firstname: ["Rodolfo I",]
+    url: https://sites.icmc.usp.br/meneguette/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Rocha Filho":
+  - firstname: ["Geraldo P",]
+    url: https://scholar.google.com.br/citations?user=as0PRQwAAAAJ&hl=en
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Lobato":
+  - firstname: ["Wellington",]
+    url: https://wellingtonlobato.github.io
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"de Souza":
+  - firstname: ["Allan M",]
+    url: https://scholar.google.com.br/citations?user=Y4lKgtgAAAAJ&hl=en
 
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Rondon":
+  - firstname: ["Lucas B",]
+    url: https://scholar.google.com/citations?user=-LCawn0AAAAJ&hl=en
+
+"Rodrigues":
+  - firstname: ["Diego O",]
+    url: http://www.lrc.ic.unicamp.br/~diego/
+
