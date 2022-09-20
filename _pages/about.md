@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Joahannes B. D. da Costa is a Ph.D. Candidate in Computer Science at [Institute of Computing][1], University of Campinas. He graduated in Information Systems (2015) and received his M.Sc. degree in Computer Science (2018) from the [Federal University of Pará][2]. Currently, Joahannes is a Visiting Researcher at [Technische Universität Dresden (TU Dresden)][3], Dresden, Germany.
+Joahannes B. D. da Costa is a Ph.D. Candidate in Computer Science at the [Institute of Computing][1], University of Campinas. He graduated in Information Systems (2015) and received his M.Sc. degree in Computer Science (2018) from the [Federal University of Pará][2]. Currently, Joahannes is a Visiting Researcher at the [Technische Universität Dresden (TU Dresden)][3], Dresden, Germany.
 
 His research is focused on:
 
