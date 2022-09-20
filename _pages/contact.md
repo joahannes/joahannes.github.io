@@ -42,7 +42,8 @@ Regular Duties (meetings, seminars, ...)
 
 Extended Travel (conferences, meetings, ...)
 
-- No travel scheduled
+<!-- - No travel scheduled -->
+- 25 -- 30 September 2022: IEEE VTC-Fall 2022, London, UK.
 
 Use [Time Zone Converter](https://www.timeanddate.com/worldclock/converter.html) to see my times in your time zone and `Dresden, Saxony - Germany` as my location.
 
