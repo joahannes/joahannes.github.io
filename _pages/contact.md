@@ -18,8 +18,8 @@ nav_order: 5
 
 ###### **Phones (Office)**:
 
-- Brazil: +55 19 3521-0336
-- Germany: +49 351 463-39669
+- 🇧🇷 Brazil: +55 19 3521-0336
+- 🇩🇪 Germany: +49 351 463-39669
 
 ###### **Address**:
 
@@ -37,13 +37,13 @@ Most of the time, we're working from home. If we set up an appointment, this wil
 Regular Duties (meetings, seminars, ...)
 
 - Mondays: 08:00 - 12:00
-- Wednesdays: 13:00 - 14:00
+- Wednesdays: 11:00 - 15:00
 - Fridays: 16:00 - 20:00
 
 Extended Travel (conferences, meetings, ...)
 
-<!-- - No travel scheduled -->
-- 25 -- 30 September 2022: IEEE VTC-Fall 2022, London, UK.
+- No travel scheduled
+<!-- - 25 -- 30 September 2022: IEEE VTC-Fall 2022, London, UK. -->
 
 Use [Time Zone Converter](https://www.timeanddate.com/worldclock/converter.html) to see my times in your time zone and `Dresden, Saxony - Germany` as my location.
 
