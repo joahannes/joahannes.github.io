@@ -36,16 +36,16 @@ Most of the time, we're working from home. If we set up an appointment, this wil
 
 Regular Duties (meetings, seminars, ...)
 
-- Mondays: 08:00 - 12:00
-- Wednesdays: 11:00 - 15:00
-- Fridays: 16:00 - 20:00
+- Tuesdays: 16-18h
+- Wednesdays: 09-16h
+- Fridays: 16-20h
 
 Extended Travel (conferences, meetings, ...)
 
 - No travel scheduled
 <!-- - 25 -- 30 September 2022: IEEE VTC-Fall 2022, London, UK. -->
 
-Use [Time Zone Converter](https://www.timeanddate.com/worldclock/converter.html) to see my times in your time zone and `Dresden, Saxony - Germany` as my location.
+Obs: Use [Time Converter](https://www.worldtimebuddy.com/) to see my times in your time zone. My current location is: `Dresden, Germany`.
 
 ###### **Email address history**:
 
