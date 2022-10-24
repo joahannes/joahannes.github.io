@@ -23,7 +23,7 @@ nav_order: 5
 
 ###### **Address**:
 
-Most of the time, we're working from home. If we set up an appointment, this will be at:
+If we set up an appointment, this will be at:
 
 - Room 1081
 - Andreas-Pfitzmann-Bau (APB)
@@ -45,7 +45,9 @@ Extended Travel (conferences, meetings, ...)
 - No travel scheduled
 <!-- - 25 -- 30 September 2022: IEEE VTC-Fall 2022, London, UK. -->
 
-Obs: Use [Time Converter](https://www.worldtimebuddy.com/) to see my times in your time zone. My current location is: `Dresden, Germany`.
+Use [Time Converter](https://www.worldtimebuddy.com/) to see my times in your time zone. My current location is: `Germany, Dresden`.
+
+To organize our meeting efficiently, I’d like to ask you to send me an email at least two days before our appointment.
 
 ###### **Email address history**:
 
@@ -53,4 +55,5 @@ I have discontinued the use of a number of e-mail addresses. Please use my canon
 
 Do not use these outdated e-mail addresses.
 
+- joahannes@lrc.ic.unicamp.br
 - joahannes@ufpa.br
