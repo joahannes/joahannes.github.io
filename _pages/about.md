@@ -24,6 +24,8 @@ His research is focused on:
 * Task Scheduling
 * Fault-tolerant Control
 
+See more in the [detailed CV](http://lattes.cnpq.br/4761632587625158).
+
 [1]: https://ic.unicamp.br/
 [2]: https://ppgcc.propesp.ufpa.br/
 [3]: https://tu-dresden.de/ing/informatik/ai

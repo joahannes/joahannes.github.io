@@ -57,6 +57,3 @@ Do not use these outdated e-mail addresses.
 
 - joahannes@lrc.ic.unicamp.br
 - joahannes@ufpa.br
-
-###### **Schedule**:
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FBerlin&showTitle=0&src=am9haGFubmVzQGdtYWlsLmNvbQ&src=c3E0MDhvYWppMDA1cHVlbmw5YzEzamdycjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cHQtYnIuZ2VybWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ajIxMDU4MkBkYWMudW5pY2FtcC5icg&color=%23D50000&color=%23260e7c&color=%2333B679&color=%23009688&color=%23000000" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
