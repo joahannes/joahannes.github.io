@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate, University of Campinas, Brazil.
+subtitle: Ph.D. Candidate, State University of Campinas (UNICAMP), Brazil 🇧🇷.
 
 profile:
   align: right
@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Joahannes B. D. da Costa is a Ph.D. Candidate in Computer Science at the [Institute of Computing][1], University of Campinas. He graduated in Information Systems (2015) and received his M.Sc. degree in Computer Science (2018) from the [Federal University of Pará][2]. Currently, Joahannes is a Visiting Researcher at the [Technische Universität Dresden (TU Dresden)][3], Dresden, Germany.
+Joahannes B. D. da Costa is a Ph.D. Candidate in Computer Science at the [Institute of Computing][1], UNICAMP. He graduated in Information Systems (2015) and received his M.Sc. degree in Computer Science (2018) from the [Federal University of Pará][2]. Currently, Joahannes is a Visiting Researcher at the [Technische Universität Dresden (TU Dresden)][3], Germany.
 
 His research is focused on:
 
@@ -26,9 +26,9 @@ His research is focused on:
 
 See more in the [detailed CV](http://lattes.cnpq.br/4761632587625158).
 
-[1]: https://ic.unicamp.br/
+[1]: https://ic.unicamp.br/en/
 [2]: https://ppgcc.propesp.ufpa.br/
-[3]: https://tu-dresden.de/ing/informatik/ai
+[3]: https://tu-dresden.de/ing/informatik
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
