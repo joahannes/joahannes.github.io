@@ -19,10 +19,11 @@ Joahannes B. D. da Costa is a Ph.D. Candidate in Computer Science at the [Instit
 
 His research is focused on:
 
-* Vehicular Edge Computing
+* Vehicular Edge Computing (VEC)
 * Vehicular Clouds
-* Task Scheduling
+* Task Scheduling & Resource Allocation
 * Fault-tolerant Control
+* Cellular Vehicle-to-Everything (C-V2X)
 
 See more in the [detailed CV](http://lattes.cnpq.br/4761632587625158).
 
