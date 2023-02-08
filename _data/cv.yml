@@ -11,13 +11,23 @@
 - title: Education
   type: time_table
   contents:
+    
     - title: Ph.D. in Computer Science
       institution: State University of Campinas (UNICAMP), Campinas, Brazil
       year: 2018 - 2023
       description:
-        - <span>Thesis:<span> Computação em Nuvem Veicular para Gerenciamento de Informação em Sistemas de Transporte Inteligentes.
+        - <span>Thesis:<span> Vehicular Cloud Computing for Information Management in Intelligent Transportation Systems.
         - <span>Advisors:<span> Leandro A. Villas (UNICAMP) and Denis Rosário (UFPA).
         - <span>Fellowship:<span> São Paulo Research Foundation - <a href="https://fapesp.br/en">FAPESP</a>.
+
+    - title: Sandwich Ph.D.
+      institution: Technische Universität Dresden (TU Dresden), Germany.
+      year: 2022 - 2023
+      description:
+        - <span>Thesis:<span> Fault-tolerant Control for Vehicular Edge Computing.
+        - <span>Advisors:<span> Christoph Sommer (TU Dresden) and Leandro A. Villas (UNICAMP).
+        - <span>Fellowship:<span> BEPE<span>:<span> São Paulo Research Foundation - <a href="https://fapesp.br/en">FAPESP</a>.
+    
     - title: M.S. in Computer Science
       institution: Federal University of Pará (UFPA), Belém, Brazil
       year: 2016 - 2018
@@ -25,6 +35,7 @@
         - <span>Thesis:<span> Disseminação de Dados Baseada em Métricas de Redes Complexas para Sistemas de Transporte Inteligentes.
         - <span>Advisors:<span> Eduardo Cerqueira (UFPA) and Denis Rosário (UFPA).
         - <span>Fellowship:<span> <a href="https://www.gov.br/capes/pt-br">CAPES</a>.
+    
     - title: B.S. in Information Systems
       institution: Federal University of Pará (UFPA), Castanhal, Brazil
       year: 2011 - 2015
