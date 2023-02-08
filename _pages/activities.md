@@ -4,7 +4,7 @@ permalink: /activities/
 title: professional activities
 description:
 nav: true
-nav_order: 4
+nav_order: 2
 ---
 
 ### Journal Reviews
