@@ -15,7 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a Ph.D. Candidate in Computer Science at the [Institute of Computing][1], UNICAMP. I have a bachelor's degree in Information Systems (2015) and a Master's in Computer Science (2018), from the [Federal University of Pará][2]. Currently, I'm a Visiting Researcher ([Networked Systems Modeling][3] group) at the [Technische Universität Dresden (TU Dresden)][4], Germany.
+I'm a Ph.D. Candidate in Computer Science at the [Institute of Computing][1], UNICAMP.
+I have a bachelor's degree in Information Systems (2015) and a Master's in Computer Science (2018), from the [Federal University of Pará][2].
+I have spent one year as a Visiting Researcher ([Networked Systems Modeling][3] group) at the [Technische Universität Dresden (TU Dresden)][4], in Germany, from March/2022 to March/2023.
 
 My research interests are:
 

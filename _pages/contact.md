@@ -19,33 +19,30 @@ nav_order: 4
 ###### **Phones (Office)**:
 
 - 🇧🇷 Brazil: +55 19 3521-0336
-- 🇩🇪 Germany: +49 351 463-39669
 
 ###### **Address**:
 
 If we set up an appointment, this will be at:
 
-- Room 1081
-- Andreas-Pfitzmann-Bau (APB)
-- Nöthnitzer Str. 46
-- 01187 Dresden, Germany
+- Room 96
+- Institute of Computing
+- Av. Albert Einstein, 1251
+- 13083-852 Campinas/SP, Brazil
 
 ###### **Times of Unavailability**:
 
-`Considering UTC+2 time zone (Central European Summer Time - CEST)`
+`Considering GMT-3 time zone (Greenwich Mean Time - GMT)`
 
 Regular Duties (meetings, seminars, ...)
 
-- Tuesdays: 16-18h
-- Wednesdays: 09-16h
-- Fridays: 16-20h
+- No task scheduled
 
 Extended Travel (conferences, meetings, ...)
 
 - No travel scheduled
 <!-- - 25 -- 30 September 2022: IEEE VTC-Fall 2022, London, UK. -->
 
-Use [Time Converter](https://www.worldtimebuddy.com/) to see my times in your time zone. My current location is: `Germany, Dresden`.
+Use [Time Converter](https://www.worldtimebuddy.com/) to see my times in your time zone. My current location is: `Brazil, Sao Paulo`.
 
 To organize our meeting efficiently, I’d like to ask you to send me an email at least two days before our appointment.
 

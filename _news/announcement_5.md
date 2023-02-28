@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-11-22 10:00:00-0000
+date: 2023-02-28 20:00:00-0000
 inline: true
 ---
 
-Happy to receive the IEEE VTS Student Travel Grant in the IEEE VTC-Fall 2022!
+I returned to Brazil after a 1-year sandwich doctorate at the TU Dresden, Germany.
