@@ -35,7 +35,8 @@ If we set up an appointment, this will be at:
 
 Regular Duties (meetings, seminars, ...)
 
-- No task scheduled
+- Thursdays: 09:00 - 11:00
+- Fridays: 14:00 - 15:00
 
 Extended Travel (conferences, meetings, ...)
 
