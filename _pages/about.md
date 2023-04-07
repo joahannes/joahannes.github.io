@@ -29,6 +29,8 @@ My research interests are:
 
 See more in the [detailed CV](http://lattes.cnpq.br/4761632587625158).
 
+[ha-index: 87](https://www.irif.fr/~haberm/haindex.html)
+
 [1]: https://ic.unicamp.br/en/
 [2]: https://ppgcc.propesp.ufpa.br/
 [3]: https://www.cms-labs.org/
