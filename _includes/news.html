@@ -1,6 +1,7 @@
           
           <div class="news">
             <h2>news</h2>
+
             {% if site.news != blank -%} 
             {%- assign news_size = site.news | size -%}
             <div class="table-responsive" {% if site.news_scrollable and news_size > 3 %}style="max-height: 10vw"{% endif %}>
@@ -27,5 +28,6 @@
             </div>
           {%- else -%} 
             <p>No news so far...</p>
-          {%- endif %} 
+          {%- endif %}
           </div>
+          <a href="/news/"> more news </a>

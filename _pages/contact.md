@@ -56,5 +56,3 @@ Do not use these outdated e-mail addresses.
 - joahannes@lrc.ic.unicamp.br
 - joahannes@ufpa.br
 
-
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=GBxpB-NXJJ1VtZo_Mfh4c61w6e2Qexhfu-gSaoWSJ5U&cl=ffffff&w=a"></script>
