@@ -14,6 +14,21 @@
   pages={1--15},
   publisher={IEEE},
   html={https://ieeexplore.ieee.org/document/10141528},
+  abstract = {Vehicular Edge Computing (VEC) is a promising paradigm that provides cloud computing services closer to vehicular users. In VEC, vehicles and communication infrastructures can form pools with computational resources to meet vehicular services with low-latency constraints. These resource pools are known as Vehicular Cloud (VC). The usage of VC resources requires a task scheduling process. In this case, depending on its complexity, a vehicular service can be divided into different tasks. An efficient task scheduling needs to orchestrate where and for how long such tasks will run, considering the available pools, the mobility of nodes, and the tasks deadline constraints. Thus, this article proposes an efficient VC task scheduler based on an approximation heuristic and resources prediction to select the best VC for each task, called MARINA. MARINA aims to analyze the behavior of vehicles that share their computational resources with the VC and make scheduling decisions based on the mobility (VC availability) of these vehicles. Simulation results under a realistic scenario demonstrate the efficiency of MARINA compared to existing state-of-the-art mechanisms in terms of the number of tasks scheduled, monetary cost, system latency, and Central Processing Unit (CPU) utilization.},
+  selected={true}
+}
+
+@article{ribeiro2023harmonic,
+  abbr={Ad Hoc Networks},
+  author = {Aguimar Ribeiro and Joahannes B D {da Costa} and Geraldo P Rocha Filho and Leandro A Villas and Daniel L. Guidoni and Sandra Sampaio and Rodolfo I Meneguette},
+  title = {HARMONIC: Shapley values in market games for resource allocation in vehicular clouds},
+  journal = {Ad Hoc Networks},
+  pages = {103224},
+  year = {2023},
+  issn = {1570-8705},
+  doi = {https://doi.org/10.1016/j.adhoc.2023.103224},
+  html = {https://www.sciencedirect.com/science/article/pii/S1570870523001440},
+  abstract = {Real-time allocation of resources to fulfill service requests from road vehicles is becoming increasingly complex, for two main reasons: the continuous increase in the number of Internet-connected vehicles on roads all over the world, and the emergence of complex and resource-greedy applications that require fast execution, often under limited availability of computational resources. While many resource allocation solutions to this problem have been proposed recently, these solutions rely on unrealistic scenarios and constraints that limit their practical use. This paper presents HARMONIC, a Game Theory-based coalition game that aims to maximize resource utilization and dynamically balance resource usage across multiple Vehicular Clouds (VCs). HARMONIC employs a Shapley value-based strategy to determine the order of task allocation to available resources. It is built upon our proposed Market Game model, specifically designed to address resource allocation challenges in dynamic VCs. We conduct a comparative analysis with existing literature solutions under various scenarios and resource constraints to evaluate HARMONIC’s performance. Our simulation results demonstrate that HARMONIC achieves resource allocation in fewer rounds and with fewer failures. Furthermore, it effectively distributes tasks to more VCs, improving load balancing and overall system efficiency.},
   selected={true}
 }
 
@@ -25,9 +40,10 @@
   pages={1--6},
   year={2022},
   organization={IEEE},
-  selected={true},
   pdf={da2022efficient.pdf},
   html={https://ieeexplore.ieee.org/document/10013029},
+  abstract = {Vehicular Edge Computing is a promising paradigm that provides cloud computing services closer to vehicular users. Vehicles and communication infrastructure can cooperatively provide vehicular services with low latency constraints through vehicular cloud formation and using these computational resources via task scheduling. An efficient task scheduler must decide which cloud will run the tasks, considering vehicular mobility and task requirements. This is important to minimize processing time and, consequently, monetary cost. However, the literature solutions do not consider these contextual aspects together, degrading the overall system efficiency. This work presents EFESTO, a task scheduling mechanism that considers contextual aspects in its decision process. The results show that, compared to state-of-the-art solutions, EFESTO can schedule more tasks while minimizing monetary cost and system latency.},
+  selected={true},
 }
 
 @inproceedings{flexe2022lobato,
@@ -38,9 +54,10 @@
   pages={1--6},
   year={2022},
   organization={IEEE},
-  selected={true},
   pdf={lobato2022flexe.pdf},
   html={https://ieeexplore.ieee.org/document/10012905},
+  abstract={Due to the increased computational capacity of Connected and Autonomous Vehicles (CAVs) and worries about transferring private information, it is becoming more and more appealing to store data locally and move network computing to the edge. This trend also extends to Machine Learning (ML) where Federated learning (FL) has emerged as an attractive solution for preserving privacy. Today, to evaluate the implemented vehicular FL mechanisms for ML training, researchers often disregard the impact of CAV mobility, network topology dynamics, or communication patterns, all of which have a large impact on the final system performance. To address this, this work presents FLEXE, an Open Source extension to Veins that offers researchers a simulation environment to run FL experiments in realistic scenarios. FLEXE combines the popular Veins framework with the OpenCV library. Using the example of traffic sign recognition, we demonstrate how FLEXE can support investigations of FL techniques in a vehicular environment.},
+  selected={true},
 }
 
 @inproceedings{lieira2021tovec,
@@ -77,9 +94,10 @@
   pages={1--5},
   year={2020},
   organization={IEEE},
-  selected={true},
   html={https://ieeexplore.ieee.org/abstract/document/9128834},
   pdf={da2020combinatorial.pdf},
+  abstract={The automotive industry has been continuously investing in the modernization of the vehicles by the addition of more sensors and computational power. With this evolution, Intelligent Transportation Systems (ITS) make up a services framework that seeks to mitigate problems in the road sector. Many ITS services are facilitated by creating vehicular clouds (VCs) by using the communication capabilities of other vehicles to provide cloud services closer to vehicular applications. However, often the computational resources present in the vehicles are underutilized. For this reason, we propose in this work a mechanism that efficiently allocates computational tasks to be performed in VCs. Simulation results on a realistic mobility trace show that, with our mechanism, tasks are more allocated, the reward from allocating these tasks was higher, resource waste was minimized, and less CPU is used in the allocation processing. Also, the proposed mechanism is statistically close to a globally optimal solution.},
+  selected={true},
 }
 
 @inproceedings{rondon2020degree,
@@ -103,8 +121,9 @@
   pages={1--13},
   year={2019},
   publisher={Springer},
-  selected={true},
   html={https://link.springer.com/article/10.1186/s13174-019-0114-y},
+  abstract={Services that aim to make the current transportation system more secure, sustainable, and efficient constitute the Traffic Management Systems (TMS). Vehicular Ad hoc Networks (VANETs) exert a strong influence for TMS applications, due to TMS services require data, communication, and processing for operation. Besides, VANET allows direct communication between vehicles, and data are exchanged and processed between them. Several TMS services require disseminated information among decision-making vehicles. However, such dissemination is a challenging task, due to the specific characteristics of VANETs, such as short-range communication and high node mobility, resulting in several variations in their topology. In this article, we introduce an extensive analysis of our proposed data dissemination protocol based on complex networks’ metrics for urban VANET scenarios, called DDRX. Each vehicle must build a subgraph to identify the relay node to continue the dissemination process. Based on the local graph, it is possible to select the relay nodes based on complex networks’ metrics. Simulation results show that DDRX offers high efficiency in terms of coverage, number of transmitted packets, delay, and packet collisions compared to well-known data dissemination protocols. Also, DDRX provides significant improvements to a TMS that needs efficient data dissemination.},
+  selected={true},
 }
 
 @inproceedings{meneguette2019virtual,
@@ -115,7 +134,7 @@
   pages={1--6},
   year={2019},
   organization={IEEE},
-  selected={true},
+  selected={false},
   html={https://ieeexplore.ieee.org/abstract/document/8761248},
 }
 

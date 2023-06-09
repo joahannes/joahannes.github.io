@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate, State University of Campinas (UNICAMP), Brazil 🇧🇷.
+subtitle: Ph.D. Candidate, University of Campinas (UNICAMP), Brazil 🇧🇷.
 
 profile:
   align: right
