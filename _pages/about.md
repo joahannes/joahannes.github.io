@@ -15,10 +15,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I'm a Ph.D. Candidate in Computer Science at the [Institute of Computing][1], UNICAMP.
-I have a bachelor's degree in Information Systems (2015) and a Master's in Computer Science (2018), from the [Federal University of Pará (UFPA)][2].
+I'm a Ph.D. Candidate in Computer Science at the [Institute of Computing][1], UNICAMP. In 2018 I won a prestigious doctoral scholarship from [São Paulo Research Foundation (FAPESP)][6].
 
-I spent one year as a visiting researcher with the [Networked Systems Modeling][3] research group of Professor [Christoph Sommer][5] in the Faculty of Computer Science at [Technische Universität Dresden (TU Dresden)][4], Germany 🇩🇪, from March 2022 to March 2023.
+Before joining UNICAMP, I earned a BS in Information Systems (2015) and an MS in Computer Science (2018), both from [Federal University of Pará (UFPA)][2].
+
+<!-- I have a bachelor's degree in Information Systems (2015) and a Master's in Computer Science (2018), from the [Federal University of Pará (UFPA)][2]. -->
+
+I spent one year (Research Internships Abroad - FAPESP) as a visiting researcher with the [Networked Systems Modeling][3] research group of Professor [Christoph Sommer][5] in the Faculty of Computer Science at [Technische Universität Dresden (TU Dresden)][4], Germany 🇩🇪, from March 2022 to March 2023.
 
 <!-- I have spent one year as a Visiting Researcher ([Networked Systems Modeling][3] group) at the [Technische Universität Dresden (TU Dresden)][4], in Germany, from March/2022 to March/2023. -->
 
@@ -39,6 +42,7 @@ See more in the [detailed CV](http://lattes.cnpq.br/4761632587625158).
 [3]: https://www.cms-labs.org/
 [4]: https://tu-dresden.de/ing/informatik
 [5]: https://www.cms-labs.org/people/sommer/
+[6]: https://fapesp.br/
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
