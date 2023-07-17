@@ -35,8 +35,11 @@ If we set up an appointment, this will be at:
 
 Regular Duties (meetings, seminars, ...)
 
-- Thursdays: 09:00 - 11:00
-- Fridays: 14:00 - 15:00
+- Mondays: 08-10h, 14-16h
+- Tuesdays: 08-10h
+- Wednesdays: 08-10h, 14-16h
+- Thursdays: 08-10h, 14-17h
+- Fridays: 08-10h
 
 Extended Travel (conferences, meetings, ...)
 
