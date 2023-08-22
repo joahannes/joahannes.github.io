@@ -10,7 +10,7 @@ nav_order: 2
 ### Journal Reviews
 
 - IEEE Transactions on Vehicular Technology (2023)
-- IEEE Transactions on Intelligent Transporation Systems (2023)
+- IEEE Transactions on Intelligent Transportation Systems (2023)
 - IEEE Systems Journal (2022)
 
 ### Conference Reviews
