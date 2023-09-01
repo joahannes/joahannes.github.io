@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{da2023efficient,
+  abbr={IEEE VTC-Fall 2023},
+  title={Improving Fairness and Performance in Resource Usage for Vehicular Edge Computing},
+  author={{da Costa}, Joahannes B D and Lobato, Wellington and {de Souza}, Allan M and Ros{\'a}rio, Denis and Sommer, Christoph and Villas, Leandro A},
+  booktitle={IEEE 98th Vehicular Technology Conference (VTC-Fall)},
+  pages={1--6},
+  year={2023},
+  organization={IEEE},
+  abstract = {Vehicular Edge Computing (VEC) has emerged to offer cloud computing services closer to vehicular users by combining vehicles and edge computing nodes into Vehicular Clouds (VCs). In this scenario, an intelligent task scheduler must decide which VC will run which tasks, considering contextual aspects like vehicular mobility and tasks’ requirements. This is important to minimize both processing time and monetary costs. However, such direct optimization can lead to unfairness in resource usage, easily leading to (as we will show) decreased performance. Towards this end, in this work, we propose FARID, a task scheduling mechanism that considers contextual aspects of its decision process and applies a probabilistic selection function on VCs to balance the processing load and increase the fairness in the use of vehicular resources. Compared to state-of-the-art solutions, FARID has a higher level of fairness and can schedule more tasks while minimizing monetary costs and system latency.},
+  selected={true},
+}
+
 @article{da2023mobility,
   abbr={IEEE T-ITS},
   title={Mobility and Deadline-aware Task Scheduling Mechanism for Vehicular Edge Computing},
@@ -29,11 +41,11 @@
   doi = {https://doi.org/10.1016/j.adhoc.2023.103224},
   html = {https://www.sciencedirect.com/science/article/pii/S1570870523001440},
   abstract = {Real-time allocation of resources to fulfill service requests from road vehicles is becoming increasingly complex, for two main reasons: the continuous increase in the number of Internet-connected vehicles on roads all over the world, and the emergence of complex and resource-greedy applications that require fast execution, often under limited availability of computational resources. While many resource allocation solutions to this problem have been proposed recently, these solutions rely on unrealistic scenarios and constraints that limit their practical use. This paper presents HARMONIC, a Game Theory-based coalition game that aims to maximize resource utilization and dynamically balance resource usage across multiple Vehicular Clouds (VCs). HARMONIC employs a Shapley value-based strategy to determine the order of task allocation to available resources. It is built upon our proposed Market Game model, specifically designed to address resource allocation challenges in dynamic VCs. We conduct a comparative analysis with existing literature solutions under various scenarios and resource constraints to evaluate HARMONIC’s performance. Our simulation results demonstrate that HARMONIC achieves resource allocation in fewer rounds and with fewer failures. Furthermore, it effectively distributes tasks to more VCs, improving load balancing and overall system efficiency.},
-  selected={true}
+  selected={false}
 }
 
 @inproceedings{da2022efficient,
-  abbr={IEEE VTC-Fall},
+  abbr={IEEE VTC-Fall 2022},
   title={Efficient Pareto Optimality-based Task Scheduling for Vehicular Edge Computing},
   author={{da Costa}, Joahannes B D and {de Souza}, Allan M and Ros{\'a}rio, Denis and Sommer, Christoph and Villas, Leandro A},
   booktitle={IEEE 96th Vehicular Technology Conference (VTC-Fall)},
@@ -47,7 +59,7 @@
 }
 
 @inproceedings{flexe2022lobato,
-  abbr={IEEE VTC-Fall},
+  abbr={IEEE VTC-Fall 2022},
   title={Flexe: Investigating Federated Learning in Connected Autonomous Vehicle Simulations},
   author={Lobato, Wellington and {da Costa}, Joahannes B D and {de Souza}, Allan M and Ros{\'a}rio, Denis and Sommer, Christoph and Villas, Leandro A},
   booktitle={IEEE 96th Vehicular Technology Conference (VTC-Fall)},
@@ -57,11 +69,11 @@
   pdf={lobato2022flexe.pdf},
   html={https://ieeexplore.ieee.org/document/10012905},
   abstract={Due to the increased computational capacity of Connected and Autonomous Vehicles (CAVs) and worries about transferring private information, it is becoming more and more appealing to store data locally and move network computing to the edge. This trend also extends to Machine Learning (ML) where Federated learning (FL) has emerged as an attractive solution for preserving privacy. Today, to evaluate the implemented vehicular FL mechanisms for ML training, researchers often disregard the impact of CAV mobility, network topology dynamics, or communication patterns, all of which have a large impact on the final system performance. To address this, this work presents FLEXE, an Open Source extension to Veins that offers researchers a simulation environment to run FL experiments in realistic scenarios. FLEXE combines the popular Veins framework with the OpenCV library. Using the example of traffic sign recognition, we demonstrate how FLEXE can support investigations of FL techniques in a vehicular environment.},
-  selected={true},
+  selected={false},
 }
 
 @inproceedings{lieira2021tovec,
-  abbr={IEEE IWCMC},
+  abbr={IEEE IWCMC 2021},
   title={TOVEC: Task Optimization Mechanism for Vehicular Clouds using Meta-heuristic Technique},
   author={Lieira, Douglas D and Quessada, Matheus S and {da Costa}, Joahannes B D and Cerqueira, Eduardo and Ros{\'a}rio, Denis and Meneguette, Rodolfo I},
   booktitle={International Wireless Communications and Mobile Computing (IWCMC)},
@@ -87,7 +99,7 @@
 }
 
 @inproceedings{da2020combinatorial,
-  abbr={IEEE VTC-Spring},
+  abbr={IEEE VTC-Spring 2020},
   title={Combinatorial optimization-based task allocation mechanism for vehicular clouds},
   author={{da Costa}, Joahannes B D and Meneguette, Rodolfo I and Ros{\'a}rio, Denis and Villas, Leandro A},
   booktitle={IEEE 91st Vehicular Technology Conference (VTC-Spring)},
@@ -101,7 +113,7 @@
 }
 
 @inproceedings{rondon2020degree,
-  abbr={IEEE VTC},
+  abbr={IEEE VTC-Spring 2020},
   title={Degree Centrality-based Caching Discovery Protocol for Vehicular Named-Data Networks},
   author={Rondon, Lucas B and {da Costa}, Joahannes B D and Rocha Filho, Geraldo P and Ros{\'a}rio, Denis and Villas, Leandro A},
   booktitle={IEEE 91st Vehicular Technology Conference (VTC-Spring)},
@@ -127,7 +139,7 @@
 }
 
 @inproceedings{meneguette2019virtual,
-  abbr={IEEE ICC},
+  abbr={IEEE ICC 2019},
   title={A virtual machine migration policy based on multiple attribute decision in vehicular cloud scenario},
   author={Meneguette, Rodolfo I and Rodrigues, Diego O and {da Costa}, Joahannes B D and Ros{\'a}rio, Denis and Villas, Leandro A},
   booktitle={IEEE International Conference on Communications (ICC)},
@@ -139,7 +151,7 @@
 }
 
 @inproceedings{pereira2019novel,
-  abbr={IEEE LATINCOM},
+  abbr={IEEE LATINCOM 2019},
   title={A novel fog-based resource allocation policy for vehicular clouds in the highway environment},
   author={Pereira, Rickson S and Lieira, Douglas D and da Silva, Marco AC and Pimenta, Adinovam HM and {da Costa}, Joahannes B D and Ros{\'a}rio, Denis and Meneguette, Rodolfo I},
   booktitle={IEEE Latin-American Conference on Communications (LATINCOM)},
@@ -150,7 +162,7 @@
 }
 
 @inproceedings{rondon2019distance,
-  abbr={IEEE LATINCOM},
+  abbr={IEEE LATINCOM 2019},
   title={A distance and position-based caching discovery protocol for vehicular named-data networks},
   author={Rondon, Lucas B and {da Costa}, Joahannes B D and Rocha Filho, Geraldo P and Villas, Leandro A},
   booktitle={IEEE Latin-American Conference on Communications (LATINCOM)},
@@ -161,7 +173,7 @@
 }
 
 @inproceedings{costa2018data,
-  abbr={IEEE ISCC},
+  abbr={IEEE ISCC 2018},
   title={Data dissemination based on complex networks’ metrics for distributed traffic management systems},
   author={{da Costa}, Joahannes B D and Ros{\'a}rio, Denis and {de Souza}, Allan M and Villas, Leandro A and Cerqueira, Eduardo},
   booktitle={2018 IEEE Symposium on Computers and Communications (ISCC)},
@@ -172,7 +184,7 @@
 }
 
 @inproceedings{junior2018comparative,
-  abbr={IEEE LATINCOM},
+  abbr={IEEE LATINCOM 2018},
   title={A comparative analysis of dsrc and vlc for video dissemination in platoon of vehicles},
   author={Lobato, Wellington and {da Costa}, Joahannes B D and Ros{\'a}rio, Denis and Cerqueira, Eduardo and Villas, Leandro A},
   booktitle={IEEE Latin-American Conference on Communications (LATINCOM)},
@@ -183,7 +195,7 @@
 }
 
 @inproceedings{costa2017centrality,
-  abbr={IEEE NCA},
+  abbr={IEEE NCA 2017},
   title={Centrality-based data dissemination protocol for vehicular ad hoc networks},
   author={{da Costa}, Joahannes B D and Lobato, Wellington and {de Souza}, Allan M and Ros{\'a}rio, Denis and Villas, Leandro A and Cerqueira, Eduardo},
   booktitle={2017 IEEE 16th International Symposium on Network Computing and Applications (NCA)},

@@ -24,6 +24,7 @@ nav_order: 2
 
 ### Technical Programme Committee
 
+- [IEEE LATINCOM 2023](https://latincom2023.ieee-latincom.org/) (15th Latin-American Conference on Communications), November 2023, Panama City, Panama.
 - [SBCUP 2023](https://csbc.sbc.org.br/2023/sbcup/) (15o Brazilian Symposium on Ubiquitous and Pervasive Computing), August 2023, João Pessoa, Brazil.
 - [SBCUP 2022](https://csbc.sbc.org.br/2022/sbcup/) (14o Brazilian Symposium on Ubiquitous and Pervasive Computing), August 2022, Niterói, Brazil.
 - [SBCUP 2021](https://csbc.ufsc.br/eventos/sbcup/) (13o Brazilian Symposium on Ubiquitous and Pervasive Computing), July 2021, Florianópolis, Brazil.
