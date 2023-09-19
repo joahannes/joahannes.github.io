@@ -11,12 +11,20 @@
 - title: Education
   type: time_table
   contents:
+
+    - title: Postdoctoral
+      institution: State University of Campinas (UNICAMP), Campinas, Brazil
+      year: 2023 - Present
+      description:
+        - <span>Topic:<span> Federated Learning.
+        - <span>Supervisor:<span> Leandro A. Villas (UNICAMP).
+        - <span>Artificial Intelligence and Cognitive Architectures Hub (H.IAAC).
     
     - title: Ph.D. in Computer Science
       institution: State University of Campinas (UNICAMP), Campinas, Brazil
       year: 2018 - 2023
       description:
-        - <span>Thesis:<span> Vehicular Cloud Computing for Information Management in Intelligent Transportation Systems.
+        - <span>Thesis:<span> Mobility-aware Resource Management for Vehicular Edge Computing.
         - <span>Advisors:<span> Leandro A. Villas (UNICAMP) and Denis Rosário (UFPA).
         - <span>Fellowship:<span> São Paulo Research Foundation - <a href="https://fapesp.br/en">FAPESP</a>.
 
