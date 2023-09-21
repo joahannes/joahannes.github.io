@@ -15,6 +15,7 @@ nav_order: 2
 
 ### Conference Reviews
 
+- [IEEE CCNC 2024](https://ccnc2024.ieee-ccnc.org/) (IEEE Consumer Communications & Networking Conference), January 2024, Las Vegas, USA.
 - [SBC WGRS 2023](https://sbrc.sbc.org.br/2023/workshop-wgrs/) (Workshop de Gerência e Operação de Redes e Serviços), May 2023, Brasília, Brazil.
 - [IEEE VNC 2023](https://ieee-vnc.org/2023/) (IEEE Vehicular Networking Conference), April 2023, Istanbul, Türkiye.
 - [IEEE CCNC 2023](https://ccnc2023.ieee-ccnc.org/) (IEEE Consumer Communications & Networking Conference), January 2023, Las Vegas, USA.
