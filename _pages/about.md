@@ -17,9 +17,9 @@ social: false  # includes social icons at the bottom of the page
 
 I'm a Postdoctoral Researcher at the [Artificial Intelligence and Cognitive Architectures Hub (H.IAAC)][7]. I received my PhD in Computer Science at the [Institute of Computing - UNICAMP][1] in September 2023. In 2018, I won a prestigious doctoral scholarship from the [São Paulo Research Foundation (FAPESP)][6].
 
-Before joining UNICAMP, I earned a BS in Information Systems (2015) and an MS in Computer Science (2018), both from the [Federal University of Pará (UFPA)][2].
+During the doctorate, I spent one year (Research Internships Abroad - FAPESP) as a visiting researcher with the [Networked Systems Modeling][3] research group of Professor [Christoph Sommer][5] in the Faculty of Computer Science at [Technische Universität Dresden (TU Dresden)][4], Germany 🇩🇪, from March 2022 to March 2023.
 
-I spent one year (Research Internships Abroad - FAPESP) as a visiting researcher with the [Networked Systems Modeling][3] research group of Professor [Christoph Sommer][5] in the Faculty of Computer Science at [Technische Universität Dresden (TU Dresden)][4], Germany 🇩🇪, from March 2022 to March 2023.
+Before joining UNICAMP, I earned a BS in Information Systems (2015) and an MS in Computer Science (2018), both from the [Federal University of Pará (UFPA)][2].
 
 <!-- I have spent one year as a Visiting Researcher ([Networked Systems Modeling][3] group) at the [Technische Universität Dresden (TU Dresden)][4], in Germany, from March/2022 to March/2023. -->
 
