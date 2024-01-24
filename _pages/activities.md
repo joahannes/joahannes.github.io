@@ -9,6 +9,7 @@ nav_order: 2
 
 ### Journal Reviews
 
+- Elsevier Computer Networks (2024)
 - Journal of Internet Services and Applications (2024)
 - IEEE Transactions on Vehicular Technology (2023)
 - IEEE Transactions on Intelligent Transportation Systems (2023)
