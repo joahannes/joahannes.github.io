@@ -9,7 +9,8 @@ nav_order: 2
 
 ### Journal Reviews
 
-- Elsevier Computer Networks (2024)
+<!-- - Elsevier Computer Networks (2024) -->
+- ITU Journal on Future and Evolving Technologies (2024)
 - Journal of Internet Services and Applications (2024)
 - IEEE Transactions on Vehicular Technology (2023)
 - IEEE Transactions on Intelligent Transportation Systems (2023)
@@ -17,6 +18,7 @@ nav_order: 2
 
 ### Conference Reviews
 
+- [SBC SBRC 2024](https://sbrc.sbc.org.br/2024/) (Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos - SBRC), May 2024, Niterói, Brazil.
 - [IEEE CCNC 2024](https://ccnc2024.ieee-ccnc.org/) (IEEE Consumer Communications & Networking Conference), January 2024, Las Vegas, USA.
 - [SBC WGRS 2023](https://sbrc.sbc.org.br/2023/workshop-wgrs/) (Workshop de Gerência e Operação de Redes e Serviços), May 2023, Brasília, Brazil.
 - [IEEE VNC 2023](https://ieee-vnc.org/2023/) (IEEE Vehicular Networking Conference), April 2023, Istanbul, Türkiye.
