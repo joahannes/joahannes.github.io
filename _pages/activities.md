@@ -18,6 +18,7 @@ nav_order: 2
 
 ### Conference Reviews
 
+- [IEEE DCOSS-IoT 2024](https://dcoss.org/) (International Conference on Distributed Computing in Smart Systems and the IoT), May 2024, Abu Dhabi, UAE.
 - [SBC SBRC 2024](https://sbrc.sbc.org.br/2024/) (Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos - SBRC), May 2024, Niterói, Brazil.
 - [IEEE CCNC 2024](https://ccnc2024.ieee-ccnc.org/) (IEEE Consumer Communications & Networking Conference), January 2024, Las Vegas, USA.
 - [SBC WGRS 2023](https://sbrc.sbc.org.br/2023/workshop-wgrs/) (Workshop de Gerência e Operação de Redes e Serviços), May 2023, Brasília, Brazil.
