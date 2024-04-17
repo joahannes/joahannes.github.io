@@ -2,11 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
-nav_order: 2
+description: courses.
+nav: true
+nav_order: 1
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+# 2024
 
-Organize your courses by years, topics, or universities, however you like!
+- 1s2024 - [Computação Ubíqua e Pervasiva](http://joahannes.github.io/ubicomp2024)
