@@ -36,4 +36,4 @@ nav_order: 7
 2. KRUMM, J. Ubiquitous Computing Fundamentals. Taylor & Francis Group, 2016
 3. Artigos científicos. Simpósio Brasileiro de Computação Ubíqua e Pervasiva (SBCUP).
 
-OBS: Consulte essa página com frequência.
+*OBS: Consulte esta página com frequência.*
