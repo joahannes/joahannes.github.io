@@ -30,6 +30,9 @@ nav_order: 2
 
 ### Technical Programme Committee
 
+- [CoUrb 2024](https://sbrc.sbc.org.br/2024/) (VIII Workshop on Urban Computing), May 2024, Niterói, Brazil.
+- [WTG 2024](https://sbrc.sbc.org.br/2024/) (VII Workshop de Trabalhos de Iniciação Científica e de Graduação), May 2024, Niterói, Brazil.
+- [SBCUP 2024](https://csbc.sbc.org.br/2024/sbcup/) (16o Brazilian Symposium on Ubiquitous and Pervasive Computing), July 2024, Brasília, Brazil.
 - [IEEE UrbCom 2024](https://sites.google.com/view/urbcom2024/committees) (6th International Workshop on Urban Computing), April 2024, Abu Dhabi, United Arab Emirates.
 - [IEEE LATINCOM 2023](https://latincom2023.ieee-latincom.org/committees/technical-program-committee) (15th Latin-American Conference on Communications), November 2023, Panama City, Panama.
 - [SBCUP 2023](https://csbc.sbc.org.br/2023/sbcup/) (15o Brazilian Symposium on Ubiquitous and Pervasive Computing), August 2023, João Pessoa, Brazil.
