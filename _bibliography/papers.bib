@@ -3,14 +3,26 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{maciel2024adaptative,
+  abbr={IEEE FiCloud 2024},
+  bibtex_show={true},
+  author = {Maciel, Filipe and Joahannes B D and Gonzalez, Luis F G and {de Souza}, Allan M and Villas, Leandro A and Bittencourt, Luiz F},
+  title = {Adaptive Fit Fraction Based on Model Performance Evolution in Federated Learning},
+  year = {2024},
+  booktitle = {11th International Conference on Future Internet of Things and Cloud (FiCloud)},
+  pages = {8},
+  location = {Vienna, Austria},
+  series = {IEEE FiCloud 2024},
+  abstract={Federated Learning (FL) allows distributed training over data in clients devices, where distributed local models are aggregated in a central server to build the so-called global model. Selecting clients to participate in the distributed training process can help in improving training efficiency and computing performance by reducing training rounds and data transfers through the network. Since selecting involves creating a subset of clients who will participate in training, it is necessary to define the size of that subset (fit fraction) appropriately. This definition is an open problem. Using a constant fit fraction throughout the training is common, and its definition requires prior knowledge of the context where the training takes place. Proposals that modify it make aggressive changes, which can lead to overusage of training resources or under-usage of training data. The proposed solution, Adaptive Fit Fraction (AFF), tackles these issues by modifying the fit fraction, considering the changes in training performance over time. It uses an observation window and linear regression on the model’s performance in this window to identify the trend and intensity of training evolution. Based on these metrics, AFF defines the magnitude of the change on the following observation window’s fit fraction value. The results demonstrated that the proposal does not negatively impact the model’s performance and that it reduces costs by requiring less client participation in more stable scenarios.},
+}
+
 @inproceedings{mohamed2024combining,
   abbr={IEEE ISCC 2024},
   bibtex_show={true},
   author = {Mohamed, Aissa H and {da Costa}, Joahannes B D and {de Souza}, Allan M and Villas, Leandro A and {dos Reis}, Julio C},
-  title = {Combining Client Selection Strategy with Knowledge Distillation for
-Federated Learning in {Non-IID} Data},
+  title = {Combining Client Selection Strategy with Knowledge Distillation for Federated Learning in {Non-IID} Data},
   year = {2024},
-  booktitle = {IEEE Symposium on Computers and Communications (ISCC)},
+  booktitle = {29th IEEE Symposium on Computers and Communications (ISCC)},
   pages = {7},
   location = {Paris, France},
   series = {IEEE ISCC 2024},
