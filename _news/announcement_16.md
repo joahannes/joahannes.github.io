@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-06-8 10:00:00-0000
+date: 2024-07-02 10:00:00-0000
 inline: true
 ---
 
-Paper accepted for IEEE International Conference on Future Internet of Things and Cloud (FiCloud) 2024. The conference will be held in Vienna, Austria 🇦🇹.
+Happy to receive the awards for (i) Best Doctoral Thesis from the Institute of Computing and (ii) [Honorable Mention in the Highlight Thesis Award 2024](https://www.prpg.unicamp.br/en/noticias/conheca-os-vencedores-do-premio-tese-destaque-unicamp/), both from the University of Campinas (UNICAMP). 🥳

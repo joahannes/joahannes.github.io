@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2024-05-16 10:00:00-0000
+date: 2024-06-8 10:00:00-0000
 inline: true
 ---
 
-Happy to receive the award for Best Doctoral Thesis from the Institute of Computing, University of Campinas (UNICAMP). 🥳
+Paper accepted for IEEE International Conference on Future Internet of Things and Cloud (FiCloud) 2024. The conference will be held in Vienna, Austria 🇦🇹.
