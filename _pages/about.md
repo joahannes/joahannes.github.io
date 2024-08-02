@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Researcher, University of Campinas (UNICAMP), Brazil 🇧🇷.
+subtitle: Postdoctoral Researcher @ University of Campinas (UNICAMP), Brazil 🇧🇷.
 
 profile:
   align: right
