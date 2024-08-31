@@ -1,0 +1,83 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Joahannes B. D. da Costa
+    - name: Languages
+      value: Portuguese, English
+    - name: Location
+      value: Campinas, São Paulo, Brazil
+
+- title: Education
+  type: time_table
+  contents:
+
+    - title: Postdoctoral
+      institution: State University of Campinas (UNICAMP), Campinas, Brazil
+      year: 2023 - Present
+      description:
+        - <span>Topic:<span> Federated Learning.
+        - <span>Supervisor:<span> Leandro A. Villas (UNICAMP).
+        - <span>Artificial Intelligence and Cognitive Architectures Hub (H.IAAC).
+    
+    - title: Ph.D. in Computer Science
+      institution: State University of Campinas (UNICAMP), Campinas, Brazil
+      year: 2018 - 2023
+      description:
+        - <span>Thesis:<span> Mobility-aware Resource Management for Vehicular Edge Computing.
+        - <span>Advisors:<span> Leandro A. Villas (UNICAMP) and Denis Rosário (UFPA).
+        - <span>Fellowship:<span> São Paulo Research Foundation - <a href="https://fapesp.br/en">FAPESP</a>.
+
+    - title: Sandwich Ph.D.
+      institution: Technische Universität Dresden (TU Dresden), Germany.
+      year: 2022 - 2023
+      description:
+        - <span>Thesis:<span> Fault-tolerant Control for Vehicular Edge Computing.
+        - <span>Advisors:<span> Christoph Sommer (TU Dresden) and Leandro A. Villas (UNICAMP).
+        - <span>Fellowship:<span> BEPE<span>:<span> São Paulo Research Foundation - <a href="https://fapesp.br/en">FAPESP</a>.
+    
+    - title: M.S. in Computer Science
+      institution: Federal University of Pará (UFPA), Belém, Brazil
+      year: 2016 - 2018
+      description:
+        - <span>Thesis:<span> Disseminação de Dados Baseada em Métricas de Redes Complexas para Sistemas de Transporte Inteligentes.
+        - <span>Advisors:<span> Eduardo Cerqueira (UFPA) and Denis Rosário (UFPA).
+        - <span>Fellowship:<span> <a href="https://www.gov.br/capes/pt-br">CAPES</a>.
+    
+    - title: B.S. in Information Systems
+      institution: Federal University of Pará (UFPA), Castanhal, Brazil
+      year: 2011 - 2015
+      description:
+        - <span>Monograph:<span> Desenvolvimento de Metodologia para Avaliação de Experiência do Usuário<span>:<span> Um estudo de caso com Segunda Tela.
+        - <span>Advisors:<span> Marcos Seruffo (UFPA) and Marianne Eliasquevici (UFPA).
+        - <span>Fellowship:<span> <a href="https://www.gov.br/cnpq/pt-br">CNPq</a>.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - <a href="https://www.prpg.unicamp.br/en/noticias/conheca-os-vencedores-do-premio-tese-destaque-unicamp/">Honorable Mention (2nd place) - Highlight Thesis Award 2023/2024 - University of Campinas</a>
+    - year: 2024
+      items:
+        - Best PhD Thesis Award - Institute of Computing - University of Campinas
+    - year: 2024
+      items:
+        - Best Paper Awards - VIII Workshop de Computação Urbana (CoUrb) - XLII SBRC
+    - year: 2024
+      items:
+        - Honorable Mention (2nd place) - VIII Workshop de Computação Urbana (CoUrb) - XLII SBRC
+    - year: 2024
+      items:
+        - Honorable Mention (2nd place) - VII Workshop de Trabalhos de Iniciação Científica e de Graduação - XLII SBRC
+    - year: 2022
+      items: 
+        - IEEE VTS Student Travel Grant - 2022 IEEE 96th Vehicular Technology Conference<span>:<span> VTC2022-Fall, IEEE Vehicular Technology Society.
+    - year: 2019
+      items: 
+        - Best Paper Awards - 10th EEE Latin-American Conference on Communications (LATINCOM 2018).
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Travelling; Movies; Eating/cooking delicious food.
