@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://joahannes.github.io/sitemap.xml
