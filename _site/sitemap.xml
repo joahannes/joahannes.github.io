@@ -122,6 +122,9 @@
 <loc>http://localhost:4000/blog/tag/tutorial/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/blog/tag/ptbr/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/blog/category/posts/</loc>
 </url>
 <url>

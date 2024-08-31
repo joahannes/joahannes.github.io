@@ -2,8 +2,8 @@
 layout: post
 title:  OMNeT++, Veins, and SUMO tutorial
 date:   2024-08-17 22:40:16
-description: march & april, looking forward to summer
-tags: veins sumo omnet tutorial
+description: 
+tags: veins sumo omnet tutorial ptbr
 categories: posts
 ---
 
@@ -83,6 +83,10 @@ Para adicionar o Veins ao OMNeT++, siga os seguintes passos:
 4. Basta clicar em `Simulate > Run`.
 5. Se tudo ocorrer bem, a seguinte imagem irá aparecer:
 
-![Veins funfando!](/assets/img/tutorials/veins.png)
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="/assets/img/tutorials/veins.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 Bons estudos! 😀

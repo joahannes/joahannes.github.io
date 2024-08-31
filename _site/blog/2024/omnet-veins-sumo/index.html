@@ -22,7 +22,8 @@
   
 </title>
 <meta name="author" content="Joahannes B. D. da Costa">
-<meta name="description" content="march &amp; april, looking forward to summer">
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
 
   <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
@@ -122,6 +123,8 @@
 
           <!-- Other pages -->
           
+          
+            
           
             
           
@@ -287,6 +290,13 @@
             <a href="/blog/tag/tutorial"> <i class="fa-solid fa-hashtag fa-sm"></i> tutorial</a>
           
           
+             
+          
+        
+          
+            <a href="/blog/tag/ptbr"> <i class="fa-solid fa-hashtag fa-sm"></i> ptbr</a>
+          
+          
         
       
 
@@ -443,7 +453,28 @@
   <li>Se tudo ocorrer bem, a seguinte imagem irá aparecer:</li>
 </ol>
 
-<p><img src="/assets/img/tutorials/veins.png" alt="Veins funfando!"></p>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/img/tutorials/veins-480.webp 480w,/assets/img/tutorials/veins-800.webp 800w,/assets/img/tutorials/veins-1400.webp 1400w," sizes="95vw" type="image/webp"></source>
+    
+    <img src="/assets/img/tutorials/veins.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
 
 <p>Bons estudos! 😀</p>
 
@@ -525,6 +556,10 @@
     
 
     
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
 
 
 
@@ -646,7 +681,7 @@
           
             title: "OMNeT++, Veins, and SUMO tutorial",
           
-          description: "march &amp; april, looking forward to summer",
+          description: "",
           section: "Posts",
           handler: () => {
             
