@@ -12,10 +12,6 @@ nav_order: 4
 - [joahannes.costa@ic.unicamp.br](mailto:joahannes.costa@ic.unicamp.br)
 - [joahannes@gmail.com](mailto:joahannes@gmail.com) (use only if first address does not work)
 
-###### **Matrix Chat**:
-
-- [@jodi585e:tu-dresden.de](https://matrix.to/#/@jodi585e:tu-dresden.de)
-
 ###### **Phones (Office)**:
 
 - 🇧🇷 Brazil: +55 19 3521-0336
