@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am an Adjunct Professor at the [Institute of Science and Technology (ICT)](https://www.unifesp.br/campus/sjc/) of the [Federal University of São Paulo (UNIFESP)](https://www.unifesp.br/).
+I am an Adjunct Professor at the [Institute of Science and Technology (ICT)](https://www.unifesp.br/campus/sjc/) of the [Federal University of São Paulo (UNIFESP)](https://www.unifesp.br/) 🇧🇷.
 I was Postdoctoral Researcher at the Artificial Intelligence and Cognitive Architectures Hub (H.IAAC) from 2023 to 2024. I received my Ph.D. in Computer Science from the Institute of Computing (IC) from UNICAMP in September 2023. In 2018, I was awarded a prestigious doctoral scholarship from the [São Paulo Research Foundation (FAPESP)][6].
 
 During the doctorate, I spent one year (Research Internships Abroad - FAPESP) as a visiting researcher with the [Networked Systems Modeling][3] research group of Professor [Christoph Sommer][5] in the Faculty of Computer Science at [Technische Universität Dresden (TU Dresden)][4], Germany 🇩🇪, from March 2022 to March 2023.
