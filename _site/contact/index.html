@@ -187,6 +187,22 @@
             
           
             
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/teaching/">teaching
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+            
               
                 
                 <li class="nav-item ">
@@ -196,8 +212,6 @@
                   </a>
                 </li>
               
-            
-          
             
           
             
@@ -214,10 +228,6 @@
                   </a>
                 </li>
               
-            
-          
-            
-          
             
           
             
@@ -341,7 +351,7 @@
     
 
     <div class="container" align="center">
-      This is a personal page, and not an official Unicamp page. Its contents are of entire responsibility of Joahannes B. D. da Costa.<p>
+      This is a personal page, and not an official Unifesp page. Its contents are of entire responsibility of Joahannes B. D. da Costa.<p>
       © Copyright 2024
       Joahannes
       B. D.
@@ -349,7 +359,7 @@
 
       
       
-        Last updated: October 01, 2024.
+        Last updated: October 06, 2024.
       
     </p>
 </div>
@@ -508,6 +518,13 @@
               handler: () => {
                 window.location.href = "/activities/";
               },
+            },{id: "nav-teaching",
+              title: "teaching",
+              description: "Disciplinas",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/teaching/";
+              },
             },{id: "nav-cv",
               title: "cv",
               description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -593,7 +610,17 @@
               section: "News",},{id: "news-our-article-a-novel-prediction-technique-for-federated-learning-has-been-accepted-for-publication-in-ieee-transactions-on-emerging-topics-in-computing-journal",
               title: 'Our article “A Novel Prediction Technique for Federated Learning” has been accepted for...',
               description: "",
-              section: "News",},{
+              section: "News",},{id: "teaching-redes-de-computadores",
+              title: 'Redes de Computadores',
+              description: "Segundo Semestre",
+              section: "Teaching",handler: () => {
+                  window.location.href = "/teaching/2024_redes/";
+                },},{id: "teaching-sistemas-operacionais",
+              title: 'Sistemas Operacionais',
+              description: "Segundo Semestre",
+              section: "Teaching",handler: () => {
+                  window.location.href = "/teaching/2024_so/";
+                },},{
           id: 'light-theme',
           title: 'Change theme to light',
           description: 'Change the theme of the site to Light',
