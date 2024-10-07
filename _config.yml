@@ -15,7 +15,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: pc.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-disclaimer: This is a personal page, and not an official Unifesp page. Its contents are of entire responsibility of Joahannes B. D. da Costa.
+disclaimer: This is a personal page and not an official Unifesp page. Its contents are the sole responsibility of Joahannes B. D. da Costa.
 
 url: https://joahannes.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

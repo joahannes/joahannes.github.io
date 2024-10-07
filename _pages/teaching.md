@@ -2,9 +2,9 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: Disciplinas
+description: Syllabus
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [2024]
 horizontal: true
 ---

@@ -22,7 +22,7 @@
   
 </title>
 <meta name="author" content="Joahannes B. D. da Costa">
-<meta name="description" content="Segundo Semestre">
+<meta name="description" content="🇧🇷 | 2s2024">
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNMKB7PN33"></script>
@@ -52,6 +52,8 @@
 
 <!-- Bootstrap Table -->
 
+  <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.4/dist/bootstrap-table.min.css" integrity="sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c=" crossorigin="anonymous">
+
 
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
@@ -60,6 +62,9 @@
 <!-- Code Syntax Highlighting -->
 <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
 
+
+  <!-- Sidebar Table of Contents -->
+  <link defer href="/assets/css/bootstrap-toc.min.css?6f5af0bb9aab25d79b2448143cbeaa88" rel="stylesheet">
 
 
 <!-- Styles -->
@@ -177,20 +182,6 @@
             
               
                 
-                <li class="nav-item ">
-                  
-                  <a class="nav-link" href="/activities/">professional activities
-                    
-                  </a>
-                </li>
-              
-            
-          
-            
-          
-            
-              
-                
                 <li class="nav-item active">
                   
                   <a class="nav-link" href="/teaching/">teaching
@@ -200,6 +191,20 @@
                   </a>
                 </li>
               
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/activities/">professional activities
+                    
+                  </a>
+                </li>
+              
+            
+          
             
           
             
@@ -263,14 +268,76 @@
     <!-- Content -->
     <div class="container mt-5" role="main">
       
-        <div class="post">
+        
+          <div class="row">
+            <!-- sidebar, which will move to the top on a small screen -->
+            <div class="col-sm-3">
+              <nav id="toc-sidebar" class="sticky-top"></nav>
+            </div>
+            <!-- main content area -->
+            <div class="col-sm-9">
+<div class="post">
   <header class="post-header">
     <h1 class="post-title">Redes de Computadores</h1>
-    <p class="post-description">Segundo Semestre</p>
+    <p class="post-description">🇧🇷 | 2s2024</p>
   </header>
 
   <article>
-    <p>TBD</p>
+    <p>Planejamento da disciplina de Redes de Computadores</p>
+
+<h2 id="avisos">Avisos</h2>
+<ul>
+  <li>
+</ul>
+
+<h2 id="datas-importantes">Datas importantes</h2>
+<ul>
+  <li>
+</ul>
+
+<h2 id="objetivos">Objetivos</h2>
+<ul>
+  <li>
+</ul>
+
+<h2 id="ementa">Ementa</h2>
+<ul>
+  <li>
+</ul>
+
+<h2 id="metodologia">Metodologia</h2>
+
+<h5 id="aulas-teóricas">Aulas teóricas</h5>
+<ul>
+  <li>
+</ul>
+
+<h5 id="aulas-práticas">Aulas práticas</h5>
+<ul>
+  <li>
+</ul>
+
+<h2 id="avaliação">Avaliação</h2>
+<ul>
+  <li>
+</ul>
+
+<h2 id="cronograma">Cronograma</h2>
+<ul>
+  <li>
+</ul>
+
+<h2 id="bibliografia">Bibliografia</h2>
+
+<h5 id="básica">Básica</h5>
+<ul>
+  <li>
+</ul>
+
+<h5 id="complementar">Complementar</h5>
+<ul>
+  <li>
+</ul>
 
   </article>
 
@@ -278,7 +345,9 @@
 
   
 </div>
-
+</div>
+          </div>
+        
       
     </div>
 
@@ -288,7 +357,7 @@
     
 
     <div class="container" align="center">
-      This is a personal page, and not an official Unifesp page. Its contents are of entire responsibility of Joahannes B. D. da Costa.<p>
+      This is a personal page and not an official Unifesp page. Its contents are the sole responsibility of Joahannes B. D. da Costa.<p>
       © Copyright 2024
       Joahannes
       B. D.
@@ -343,8 +412,14 @@
   <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
 
 
+  <!-- Sidebar Table of Contents -->
+  <script defer src="/assets/js/bootstrap-toc.min.js?c82ff4de8b0955d6ff14f5b05eed7eb6"></script>
+
 
 <!-- Bootstrap Table -->
+
+  <!-- Bootstrap Table doesn't go well with diff2html -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.22.4/dist/bootstrap-table.min.js" integrity="sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78=" crossorigin="anonymous"></script>
 
 
 <!-- Load Common JS -->
@@ -448,19 +523,19 @@
               handler: () => {
                 window.location.href = "/publications/";
               },
+            },{id: "nav-teaching",
+              title: "teaching",
+              description: "Syllabus",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/teaching/";
+              },
             },{id: "nav-professional-activities",
               title: "professional activities",
               description: "",
               section: "Navigation",
               handler: () => {
                 window.location.href = "/activities/";
-              },
-            },{id: "nav-teaching",
-              title: "teaching",
-              description: "Disciplinas",
-              section: "Navigation",
-              handler: () => {
-                window.location.href = "/teaching/";
               },
             },{id: "nav-cv",
               title: "cv",
@@ -549,12 +624,12 @@
               description: "",
               section: "News",},{id: "teaching-redes-de-computadores",
               title: 'Redes de Computadores',
-              description: "Segundo Semestre",
+              description: "🇧🇷 | 2s2024",
               section: "Teaching",handler: () => {
                   window.location.href = "/teaching/2024_redes/";
                 },},{id: "teaching-sistemas-operacionais",
               title: 'Sistemas Operacionais',
-              description: "Segundo Semestre",
+              description: "🇧🇷 | 2s2024",
               section: "Teaching",handler: () => {
                   window.location.href = "/teaching/2024_so/";
                 },},{
