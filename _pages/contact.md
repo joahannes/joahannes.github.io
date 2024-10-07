@@ -9,21 +9,20 @@ nav_order: 5
 
 ###### **Email**:
 
-- [joahannes.costa@ic.unicamp.br](mailto:joahannes.costa@ic.unicamp.br)
+- TBD
 - [joahannes@gmail.com](mailto:joahannes@gmail.com) (use only if first address does not work)
 
 ###### **Phones (Office)**:
 
-- 🇧🇷 Brazil: +55 19 3521-0336
+- TBD
 
 ###### **Address**:
 
 If we set up an appointment, this will be at:
 
-- Room 96
-- Institute of Computing
-- Av. Albert Einstein, 1251
-- 13083-852 Campinas/SP, Brazil
+- Room 5 (ground floor)
+- Institute of Science and Technology
+- Av. Cesare Monsueto Giulio Lattes, 1201 - Eugênio de Melo, São José dos Campos - SP, 12247-014, Brazil  ([see on Google Maps](https://maps.app.goo.gl/Y4MW9UUYDKgL2Urs8))
 
 ###### **Times of Unavailability**:
 
@@ -31,11 +30,10 @@ If we set up an appointment, this will be at:
 
 Regular Duties (meetings, seminars, ...)
 
-- Mondays: 14-16h
-- Tuesdays: 08-09h
-- Wednesdays: 14-16h
-- Thursdays: 08-10h
-- Fridays: 08-12h, 13-17h
+- Tuesdays:
+    - 13-16h, 21-23h
+- Thursdays:
+    - 13-16h, 21-23h
 
 Extended Travel (conferences, meetings, ...)
 
@@ -51,5 +49,7 @@ I have discontinued the use of a number of e-mail addresses. Please use my canon
 
 Do not use these outdated e-mail addresses.
 
+- joahannes.costa@ic.unicamp.br
+- jbdc@unicamp.br
 - joahannes@lrc.ic.unicamp.br
 - joahannes@ufpa.br
