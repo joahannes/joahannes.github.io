@@ -30,12 +30,14 @@ categories: posts
 - `sudo apt-get install build-essential clang lld gdb bison flex perl python3 python3-pip qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools libqt5opengl5-dev libxml2-dev zlib1g-dev doxygen graphviz libwebkit2gtk-4.0-37`
 - `python3 -m pip install --user --upgrade numpy pandas matplotlib scipy seaborn posix_ipc`
 3. Acesse a pasta `omnetpp-6.0/`
-4. Altere a linha `PREFER_CLANG=yes` para `PREFER_CLANG=no` no arquivo `omnetpp-6.0/configure.user`
+4. Altere as seguintes linhas no arquivo `omnetpp-6.0/configure.user`:
+- `PREFER_CLANG=yes` para `PREFER_CLANG=no`
+- `WITH_OSG=yes` para `WITH_OSG=no`
 5. Execute os comandos:
 - `source setenv`
 - `./configure`
   - Se a mensagem ao final da execução for `Configuration phase finished. Use 'make' to build OMNeT++.`, prossiga para o próximo comando.
-- `make`
+- `make -j$(nproc)`
 6. Execute o comando `omnetpp` no terminal para abrir o OMNeT++
 - Ao carregar o programa irá abrir uma janela para seleção do diretório que será o `workspace`
 - Clicar em `Browse...`, navegar até o diretório `projeto`, clicar para criar um novo diretório e nomeá-lo como `workspace`.

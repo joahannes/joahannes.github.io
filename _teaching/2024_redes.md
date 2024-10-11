@@ -14,6 +14,7 @@ toc:
 Pré-Requisito: *2612 - Sistemas Operacionais*
 
 ## Avisos
+- 11/10: Não teremos aula no dia 17/10 por conta da Semana de Ciência e Tecnologia.
 - 08/10: ATENÇÃO! Consulte esta página com frequência. ⚠️
 
 ## Datas importantes
@@ -61,7 +62,7 @@ Atribuição de notas:
   - Aula 01 (08/10): Apresentação da disciplina
   - Aula 02 (10/10): Capítulo 1 - Redes de computadores e a Internet
   - Aula 03 (15/10): Capítulo 1 - Redes de computadores e a Internet
-  - Aula 04 (17/10): Capítulo 2 - Camada de Aplicação
+  - Aula 04 (17/10): SEM AULA - Semana de Ciência e Tecnologia
   - Aula 05 (22/10): Capítulo 2 - Camada de Aplicação
   - Aula 06 (24/10): Capítulo 2 - Camada de Aplicação
   - Aula 07 (29/10): Capítulo 2 - Camada de Aplicação

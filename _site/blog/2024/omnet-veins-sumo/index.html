@@ -379,8 +379,16 @@
   </li>
   <li>Acesse a pasta <code class="language-plaintext highlighter-rouge">omnetpp-6.0/</code>
 </li>
-  <li>Altere a linha <code class="language-plaintext highlighter-rouge">PREFER_CLANG=yes</code> para <code class="language-plaintext highlighter-rouge">PREFER_CLANG=no</code> no arquivo <code class="language-plaintext highlighter-rouge">omnetpp-6.0/configure.user</code>
+  <li>Altere as seguintes linhas no arquivo <code class="language-plaintext highlighter-rouge">omnetpp-6.0/configure.user</code>:
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">PREFER_CLANG=yes</code> para <code class="language-plaintext highlighter-rouge">PREFER_CLANG=no</code>
 </li>
+      <li>
+<code class="language-plaintext highlighter-rouge">WITH_OSG=yes</code> para <code class="language-plaintext highlighter-rouge">WITH_OSG=no</code>
+</li>
+    </ul>
+  </li>
   <li>Execute os comandos:
     <ul>
       <li><code class="language-plaintext highlighter-rouge">source setenv</code></li>
@@ -390,7 +398,7 @@
           <li>Se a mensagem ao final da execução for <code class="language-plaintext highlighter-rouge">Configuration phase finished. Use 'make' to build OMNeT++.</code>, prossiga para o próximo comando.</li>
         </ul>
       </li>
-      <li><code class="language-plaintext highlighter-rouge">make</code></li>
+      <li><code class="language-plaintext highlighter-rouge">make -j$(nproc)</code></li>
     </ul>
   </li>
   <li>Execute o comando <code class="language-plaintext highlighter-rouge">omnetpp</code> no terminal para abrir o OMNeT++
@@ -538,7 +546,7 @@
 
       
       
-        Last updated: October 10, 2024.
+        Last updated: October 11, 2024.
       
     </p>
 </div>
