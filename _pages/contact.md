@@ -9,7 +9,7 @@ nav_order: 5
 
 ###### **Email**:
 
-- TBD
+- [joahannes.costa@unifesp.br](mailto:joahannes.costa@unifesp.br)
 - [joahannes@gmail.com](mailto:joahannes@gmail.com) (use only if first address does not work)
 
 ###### **Phones (Office)**:
