@@ -14,6 +14,7 @@ toc:
 Pré-Requisito: *2612 - Sistemas Operacionais*
 
 ## Avisos
+- 15/10: Google Classroom da disciplina está disponível. Acesse [neste link](https://classroom.google.com/c/NzIzNzkyMDM1NzQw?cjc=sow4m5n).
 - 11/10: Não teremos aula no dia 17/10 por conta da Semana de Ciência e Tecnologia.
 - 08/10: ATENÇÃO! Consulte esta página com frequência. ⚠️
 
