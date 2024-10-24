@@ -14,6 +14,7 @@ toc:
 Pré-Requisito: *2612 - Sistemas Operacionais*
 
 ## Avisos
+- 24/10: As informações serão movidas para o Google Classroom
 - 15/10: Google Classroom da disciplina está disponível. Acesse [neste link](https://classroom.google.com/c/NzIzNzkyMDM1NzQw?cjc=sow4m5n).
 - 11/10: Não teremos aula no dia 17/10 por conta da Semana de Ciência e Tecnologia.
 - 08/10: ATENÇÃO! Consulte esta página com frequência. ⚠️
@@ -59,50 +60,8 @@ Atribuição de notas:
 - Nota Final $$ < 3$$ = Reprovado
 
 ## Cronograma
-- Outubro/2024:
-  - Aula 01 (08/10): Apresentação da disciplina
-  - Aula 02 (10/10): Capítulo 1 - Redes de computadores e a Internet
-  - Aula 03 (15/10): Capítulo 1 - Redes de computadores e a Internet
-  - Aula 04 (17/10): SEM AULA - Semana de Ciência e Tecnologia
-  - Aula 05 (22/10): Capítulo 2 - Camada de Aplicação
-  - Aula 06 (24/10): Capítulo 2 - Camada de Aplicação
-  - Aula 07 (29/10): Capítulo 2 - Camada de Aplicação
-  - Aula 08 (31/10): Capítulo 2 - Camada de Aplicação
 
-- Novembro/2024:
-  - Aula 09 (05/11): Capítulo 3 - Camada de Transporte
-  - Aula 10 (07/11): Capítulo 3 - Camada de Transporte
-  - Aula 11 (12/11): Capítulo 3 - Camada de Transporte
-  - Aula 12 (14/11): Capítulo 3 - Camada de Transporte
-  - Aula 13 (19/11): Capítulo 3 - Camada de Transporte
-  - Aula 14 (21/11): Capítulo 3 - Camada de Transporte
-  - Aula 15 (26/11): <span style="color:red">Prova P1</span>
-  - Aula 16 (28/11): Capítulo 4 - Camada de Rede
-
-- Dezembro/2024:
-  - Aula 17 (03/12): Capítulo 4 - Camada de Rede
-  - Aula 18 (05/12): Capítulo 4 - Camada de Rede
-  - Aula 19 (10/12): Capítulo 4 - Camada de Rede
-  - Aula 20 (12/12): Capítulo 4 - Camada de Rede
-  - Aula 21 (17/12): Capítulo 4 - Camada de Rede
-  - Aula 22 (19/12): Capítulo 5 - Camada de Enlace e redes locais
-
-- Janeiro/2025:
-  - Aula 23 (14/01): Capítulo 5 - Camada de Enlace e redes locais
-  - Aula 24 (16/01): Capítulo 5 - Camada de Enlace e redes locais
-  - Aula 25 (21/01): Capítulo 5 - Camada de Enlace e redes locais
-  - Aula 26 (23/01): Capítulo 5 - Camada de Enlace e redes locais
-  - Aula 27 (28/01): Capítulo 5 - Camada de Enlace e redes locais
-  - Aula 28 (30/01): <span style="color:red">Prova P2</span>
-
-- Fevereiro/2025:
-  - Aula 29 (04/02): -
-  - Aula 30 (06/02): -
-  - Aula 31 (11/02): -
-  - Aula 32 (13/02): -
-  - Aula 33 (18/02): -
-  - Aula 34 (20/02): -
-  - Aula 35 (25/02): <span style="color:red">Exame</span>
+TBD
 
 ## Bibliografia
 
