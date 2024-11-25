@@ -15,9 +15,6 @@ Pré-Requisito: *2612 - Sistemas Operacionais*
 
 ## Avisos
 - 24/10: As informações serão movidas para o Google Classroom
-- 15/10: Google Classroom da disciplina está disponível. Acesse [neste link](https://classroom.google.com/c/NzIzNzkyMDM1NzQw?cjc=sow4m5n).
-- 11/10: Não teremos aula no dia 17/10 por conta da Semana de Ciência e Tecnologia.
-- 08/10: ATENÇÃO! Consulte esta página com frequência. ⚠️
 
 ## Datas importantes
 - **Prova P1**: <span style="color:red">26 de Novembro de 2024</span>
