@@ -31,6 +31,7 @@ nav_order: 3
 
 ### Technical Programme Committee
 
+- [SBRC 2025](https://sbrc.sbc.org.br/2025/) (Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos - SBRC), May 2025, Natal, Brazil.
 - [CoUrb 2024](https://sbrc.sbc.org.br/2024/) (VIII Workshop on Urban Computing), May 2024, Niterói, Brazil.
 - [WTG 2024](https://sbrc.sbc.org.br/2024/) (VII Workshop de Trabalhos de Iniciação Científica e de Graduação), May 2024, Niterói, Brazil.
 - [SBCUP 2024](https://csbc.sbc.org.br/2024/sbcup/) (16o Brazilian Symposium on Ubiquitous and Pervasive Computing), July 2024, Brasília, Brazil.

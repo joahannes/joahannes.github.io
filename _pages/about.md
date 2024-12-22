@@ -25,12 +25,11 @@ During the doctorate, I spent one year (Research Internships Abroad - FAPESP) as
 
 Before joining UNICAMP, I earned a BS in Information Systems (2015) and an MS in Computer Science (2018), both from the [Federal University of Pará (UFPA)][2].
 
-My research interests are:
+I am a Researcher at the [PANDA Lab](https://pandalab-unifesp.github.io/), investigating complex problems related to:
 
-* Vehicular Edge Computing (VEC)
-* Vehicular Clouds
+* Vehicular Edge Computing (VEC) and Vehicular Clouds (VCs)
 * Task Scheduling & Resource Allocation
-* Fault-tolerant Control
+* Time-Sensitive Networking (TSN)
 * Cellular Vehicle-to-Everything (C-V2X)
 
 See more in the [detailed CV](http://lattes.cnpq.br/4761632587625158).
