@@ -14,14 +14,14 @@ nav_order: 5
 
 ###### **Phones (Office)**:
 
-- +55 12 3924-9500 &rarr; Extension number: 9782
+- +55 11 3385-4100 &rarr; Extension number: 9782
 
 ###### **Address**:
 
 If we set up an appointment, this will be at:
 
-- Room 5 (ground floor)
-- Institute of Science and Technology
+- Room 106 (first floor)
+- Institute of Science and Technology (ICT)
 - Av. Cesare Monsueto Giulio Lattes, 1201 - Eugênio de Melo, São José dos Campos - SP, 12247-014, Brazil  ([see on Google Maps](https://maps.app.goo.gl/Y4MW9UUYDKgL2Urs8))
 
 ###### **Times of Unavailability**:

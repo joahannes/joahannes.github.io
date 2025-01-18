@@ -5,7 +5,7 @@
 
 @article{capanema2024novel,
   abbr={IEEE TETC},
-  bibtex_show={false},
+  bibtex_show={true},
   title={A Novel Prediction Technique for Federated Learning},
   author={Capanema, Claudio and {de Souza}, Allan M and {da Costa}, Joahannes B D and Silva, Fabricio A and Villas, Leandro A and Loureiro, Antonio A},
   journal={IEEE Transactions on Emerging Topics in Computing},
@@ -21,6 +21,7 @@
 
 @inproceedings{braun2024ecopredict,
   abbr={IEEE VTC2024-Fall},
+  bibtex_show={true},
   title={EcoPredict: Assessing Distributed Machine Learning Methods for Predicting Urban Emissions},
   author={Braun, Carnot and {da Costa}, Joahannes B D and Villas, Leandro A and {de Souza}, Allan M},
   booktitle={IEEE 100th Vehicular Technology Conference (VTC-Fall)},
@@ -28,12 +29,14 @@
   year={2024},
   organization={IEEE},
   pdf={braun2024ecopredict.pdf},
+  html={https://ieeexplore.ieee.org/document/10757672},
   abstract = {The growing number of vehicles has led to increased emissions of polluting gases, necessitating accurate forecasting for effective mitigation strategies and sustainable urban development. Leveraging computational resources in vehicles, this study presents a framework, called EcoPredict, for predicting CO2 emissions in collaborative vehicular network environments. The framework implements three forms of learning methods — centralized, federated, and split — using urban sensor networks for data collection. Experiments carried out in realistic vehicular mobility scenarios demonstrate the framework's robustness and efficiency in providing real-time emission predictions. Each learning architecture has its own advantages and limitations regarding performance, training time, latency, communication overhead, and data privacy. Therefore, this work aims to assess their performance to analyze their effectiveness in urban environments.},
   selected={false},
 }
 
 @inproceedings{lobato2024entropy,
   abbr={IEEE FLTA 2024},
+  bibtex_show={true},
   title={Entropy and Mobility-based Model Assignment for Multi-model Vehicular Federated Learning},
   author={Lobato, Wellington and {da Costa}, Joahannes B D and Gonzales, Luis F G and Cerqueira, Eduardo and Ros{\'a}rio, Denis and Sommer, Christoph and Villas, Leandro A},
   booktitle={IEEE International Symposium on Federated Learning Technologies and Applications (FLTA)},
@@ -54,6 +57,7 @@
   pages = {8},
   location = {Vienna, Austria},
   series = {IEEE FiCloud 2024},
+  html={https://ieeexplore.ieee.org/document/10743052},
   abstract={Federated Learning (FL) allows distributed training over data in clients devices, where distributed local models are aggregated in a central server to build the so-called global model. Selecting clients to participate in the distributed training process can help in improving training efficiency and computing performance by reducing training rounds and data transfers through the network. Since selecting involves creating a subset of clients who will participate in training, it is necessary to define the size of that subset (fit fraction) appropriately. This definition is an open problem. Using a constant fit fraction throughout the training is common, and its definition requires prior knowledge of the context where the training takes place. Proposals that modify it make aggressive changes, which can lead to overusage of training resources or under-usage of training data. The proposed solution, Adaptive Fit Fraction (AFF), tackles these issues by modifying the fit fraction, considering the changes in training performance over time. It uses an observation window and linear regression on the model’s performance in this window to identify the trend and intensity of training evolution. Based on these metrics, AFF defines the magnitude of the change on the following observation window’s fit fraction value. The results demonstrated that the proposal does not negatively impact the model’s performance and that it reduces costs by requiring less client participation in more stable scenarios.},
 }
 
@@ -67,6 +71,7 @@
   pages = {7},
   location = {Paris, France},
   series = {IEEE ISCC 2024},
+  html={https://ieeexplore.ieee.org/document/10733694},
   abstract={Federated Learning (FL) is a distributed approach in which multiple devices collaborate to train a shared global model. During its training, client devices must communicate their local gradients to the central server to update the global model weights. This incurs significant communication costs (bandwidth utilization and the number of messages exchanged), leading to many challenges (communication bottlenecks and scalability issues in FL). Furthermore, the heterogeneous nature of clients' datasets poses an extra challenge to the model training. In this sense, we introduce FedCCSKD, a Federated Clustered Client Selection and Knowledge Distillation training algorithm, to decrease the overall communication costs for FL. FedCCSKD is an innovative combination of: (i) client selection, and (ii) knowledge distillation approaches with three main objectives: (i) reducing the number of devices training at every round; (ii) decreasing the number of rounds to reach convergence; and (iii) mitigating the effect of clients' heterogeneous data on the global model effectiveness. Our experimental evaluations on two well-known datasets, MNIST and MotionSense, demonstrate that FedCCSKD is highly efficient in training the global model. FedCCSKD reaches a higher accuracy score and faster convergence than state-of-the-art baseline models. Our results also show higher performance when analyzing the accuracy scores on the client's datasets.},
 }
 
