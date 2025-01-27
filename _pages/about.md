@@ -25,7 +25,7 @@ During the doctorate, I spent one year (Research Internships Abroad - FAPESP) as
 
 Before joining UNICAMP, I earned a BS in Information Systems (2015) and an MS in Computer Science (2018), both from the [Federal University of Pará (UFPA)][2].
 
-I am a Researcher at the [PANDA Lab](https://pandalab-unifesp.github.io/), investigating complex problems related to:
+I am a Researcher at the [GRECO lab](https://greco-unifesp.github.io/), investigating complex problems related to:
 
 * Vehicular Edge Computing (VEC) and Vehicular Clouds (VCs)
 * Task Scheduling & Resource Allocation
