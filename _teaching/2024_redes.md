@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 2617 - Redes de Computadores
-description: 🇧🇷 | 2s2024
+description: 🇧🇷 | 2s2024 - Noturno
 img: 
 importance: 2
 category: 2024

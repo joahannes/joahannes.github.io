@@ -30,10 +30,12 @@ If we set up an appointment, this will be at:
 
 Regular Duties (meetings, seminars, ...)
 
-- Tuesdays:
-    - 13-16h, 21-23h
 - Thursdays:
-    - 13-16h, 21-23h
+    - 15:30 - 17:30
+    - 21:00 - 23:00
+- Fridays:
+    - 15:30 - 17:30
+    - 21:00 - 23:00
 
 Extended Travel (conferences, meetings, ...)
 

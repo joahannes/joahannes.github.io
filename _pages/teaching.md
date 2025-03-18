@@ -5,7 +5,7 @@ permalink: /teaching/
 description: Syllabus
 nav: true
 nav_order: 2
-display_categories: [2024]
+display_categories: [2025, 2024]
 horizontal: true
 ---
 
