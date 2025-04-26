@@ -15,7 +15,24 @@
   abstract={In the realm of Federated Learning (FL), a collaborative yet decentralized approach to machine learning, communication efficiency is a critical concern, particularly under constraints of limited bandwidth and resources. This paper evaluates FedSNIP, a novel method that leverages the SNIP (Single-shot Network Pruning based on Connection Sensitivity) technique within this context. By utilizing SNIP, FedSNIP effectively prunes neural networks, converting numerous weights to zero and resulting in sparser weight representations. This substantial reduction in weight density significantly decreases the volume of parameters that need to be communicated to the server, thereby reducing the communication overhead. Our experiments on the CIFAR-10 and UCI-HAR dataset demonstrate that FedSNIP not only lowers the data transmission between clients and the server but also maintains competitive model accuracy, comparable to conventional FL models. Additionally, we analyze various compression algorithms applied after pruning, specifically evaluating the Compressed Sparse Row, Coordinate List, and Compressed Sparse Column formats to identify the most efficient approach. Our results show that Compressed Sparse Row not only compresses the data more effectively and quickly but also achieves the highest reduction in data size, making it the most suitable format for enhancing the efficiency of FL, particularly in scenarios with restricted communication capabilities.},
 }
 
-@inproceedings{bustincio2023entropic,
+@inproceedings{mohamed2024efficient,
+  abbr={IEEE/ACM UCC},
+  bibtex_show={true},
+  author={Mohamed, Aissa H. and {da Costa}, Joahannes B D and {de Souza}, Allan M and Villas, Leandro A and Dos Reis, Julio C.},
+  title = {Efficient Federated Learning for Heterogeneous Data: A Client Selection and Adaptive Knowledge Distillation Approach},
+  year = {2024},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  doi = {10.1109/UCC63386.2024.00050},
+  booktitle={2024 IEEE/ACM 17th International Conference on Utility and Cloud Computing (UCC)},
+  pages={306-315},
+  location = {Sharjah, United Arab Emirates},
+  series = {{UCC}~'24},
+  html = {https://ieeexplore.ieee.org/document/10971833},
+  abstract={Federated Learning (FL) is a distributed machine learning paradigm where multiple clients train a shared global model collaboratively. FL was developed in response to growing concerns regarding data ethics and privacy. However, the communication overhead inherent to FL can be a significant bottleneck. Client devices containing heterogeneous data distributions constitute another key difficulty to the training of the shared model until its convergence. This investigation introduces AdaptiveKDS, a novel approach that integrates client selection and knowledge distillation to mitigate these challenges. By strategically selecting a subset of clients in each training round, we accelerate the convergence speed of the shared model. Our adaptive local knowledge distillation mechanism customizes the knowledge transfer process to each client’s local data. This approach effectively tackles the challenge posed by heterogeneous local data distributions. Our empirical evaluation, conducted on the MNIST and the German Traffic Sign Benchmark datasets, demonstrates that AdaptiveKDS consistently outperforms existing FL methods regarding the global convergence speed, overall accuracy and performance of the global model on individual client datasets.},
+}
+
+@inproceedings{bustincio2024minimizing,
   abbr={IEEE/ACM UCC},
   bibtex_show={true},
   author = {Bustincio, Rómulo and Calle, Jorge L D and {da Costa}, Joahannes B D and {de Souza}, Allan M and Gonzalez, Luis F G and Bittencourt, Luiz F},
@@ -24,11 +41,11 @@
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
   doi = {10.1109/UCC63386.2024.00078},
-  booktitle = {Proceedings of the 17th IEEE/ACM Utility and Cloud Computing Conference (UCC)},
-  pages = {},
+  booktitle={2024 IEEE/ACM 17th International Conference on Utility and Cloud Computing (UCC)}, 
+  pages={503-508},
   location = {Sharjah, United Arab Emirates},
   series = {{UCC}~'24},
-  html = {https://dl.acm.org/doi/abs/10.1109/UCC63386.2024.00078},
+  html = {https://ieeexplore.ieee.org/document/10971834},
   abstract={Federated Learning (FL) is a decentralized approach for training machine learning models across distributed clients, while maintaining data privacy. Despite its advantages, it faces significant challenges, particularly due to the non-independent and identically distributed (non-IID) nature of the data across clients, which can impact the accuracy of the global model. Furthermore, the participation of numerous clients often results in substantial communication overhead and complex resource management. In this paper, we propose FedWave, a novel method designed to reduce communication overhead without significantly increasing computational costs. Our methodology leverages Harten’s multiresolution analysis to apply wavelet transforms to machine learning models, extracting key coefficients. By transmitting only the most significant coefficients, we achieve efficient model compression, reducing the amount of data communicated between clients and the central server. Unlike Singular Value Decomposition (SVD), commonly used for dimensionality reduction, our method offers computational simplicity and faster compression, making it highly suited for real-time, large-scale FL applications. The results demonstrate that our approach achieves comparable accuracy to SVD-based models while significantly decreasing both communication and computational costs, even in distributed, non-IID data environments.},
 }
 
