@@ -46,10 +46,9 @@ layout: default
         news
       </h2>
       {% include news.liquid limit=true %}
+      <a href="/news/"> more news </a>
+      <br><br>
     {% endif %}
-    <a href="/news/"> more news </a>
-
-    <br><br>
 
     <!-- Latest posts -->
     {% if site.latest_posts.enabled %}
@@ -57,10 +56,9 @@ layout: default
         latest posts
       </h2>
       {% include latest_posts.liquid %}
+      <a href="/blog/"> more posts </a>
+      <br><br>
     {% endif %}
-    <a href="/blog/"> more posts </a>
-
-    <br><br>
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
