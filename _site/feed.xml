@@ -1,5 +1,344 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-07-31T11:19:43-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">OMNeT++, Veins, and SUMO tutorial</title><link href="http://localhost:4000/blog/2024/omnet-veins-sumo/" rel="alternate" type="text/html" title="OMNeT++, Veins, and SUMO tutorial" /><published>2024-08-17T19:40:16-03:00</published><updated>2024-08-17T19:40:16-03:00</updated><id>http://localhost:4000/blog/2024/omnet-veins-sumo</id><content type="html" xml:base="http://localhost:4000/blog/2024/omnet-veins-sumo/"><![CDATA[<h4 id="1-versões-utilizadas-neste-tutorial"><strong>1. Versões utilizadas neste tutorial</strong></h4>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-09-17T21:18:26-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Cooperative TSN tutorial</title><link href="http://localhost:4000/blog/2025/cooperative/" rel="alternate" type="text/html" title="Cooperative TSN tutorial" /><published>2025-09-17T07:40:16-03:00</published><updated>2025-09-17T07:40:16-03:00</updated><id>http://localhost:4000/blog/2025/cooperative</id><content type="html" xml:base="http://localhost:4000/blog/2025/cooperative/"><![CDATA[<h4 id="versões-de-softwares"><strong>Versões de softwares</strong></h4>
+
+<ul>
+  <li>SO Host Principal: Ubuntu 22.04.4 LTS</li>
+  <li>SO Host TSNSched: Ubuntu 24.04</li>
+  <li>OMNeT++: 6.0.3</li>
+  <li>Veins: 5.2</li>
+  <li>SUMO: 1.11.0</li>
+  <li>Docker: 28.1.1+1</li>
+</ul>
+
+<h4 id="1-instalação-do-cooperativetsn"><strong>1. Instalação do cooperativeTSN</strong></h4>
+
+<ol>
+  <li>
+    <p>Download da imagem de Docker com o comando <code class="language-plaintext highlighter-rouge">docker pull dr.nsm.inf.tu-dresden.de/jannusch/wons25:latest</code></p>
+  </li>
+  <li>Verificar se a imagem foi baixada, via comando <code class="language-plaintext highlighter-rouge">docker images</code>. O resultado deve ser algo como:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>REPOSITORY                                 TAG       IMAGE ID       CREATED        SIZE
+dr.nsm.inf.tu-dresden.de/jannusch/wons25   latest    c74d154dec49   7 months ago   12.1GB
+</code></pre></div>    </div>
+  </li>
+  <li>Cria container com a imagem baixada. Nomeie esse container como <strong>cooperativeTSN</strong>.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>docker run <span class="nt">-it</span> <span class="nt">--name</span> cooperativeTSN ID_IMAGEM bash
+</code></pre></div>    </div>
+    <p>OBS: Nesse exemplo, <strong>ID_IMAGEM</strong> seria: <em>c74d154dec49</em>.</p>
+  </li>
+  <li>Verificar se container foi criado com o comando <code class="language-plaintext highlighter-rouge">sudo docker ps -a</code>. O resultado deve ser algo como:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CONTAINER ID   IMAGE          COMMAND   CREATED              STATUS                      PORTS     NAMES
+a5832644e8ce   c74d154dec49   <span class="s2">"bash"</span>    About a minute ago   Exited <span class="o">(</span>0<span class="o">)</span> 2 seconds ago              cooperativeTSN
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Acessar o container com o comando <code class="language-plaintext highlighter-rouge">sudo docker attach cooperativeTSN</code>.</p>
+
+    <p>5.1. Atualizar pacotes do sistema</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>apt update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt upgrade <span class="nt">-y</span>
+</code></pre></div>    </div>
+
+    <p>5.2. Destravar PIP e instalar pacote para comunicação inter-processos.</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> python3 <span class="nt">-m</span> pip config <span class="nb">set </span>global.break-system-packages <span class="nb">true</span>
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> python3 <span class="nt">-m</span> pip <span class="nb">install</span> <span class="nt">--user</span> <span class="nt">--upgrade</span> posix_ipc
+</code></pre></div>    </div>
+
+    <p>5.3. Aplicar variáveis de ambiente</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> bash docker-env.sh
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Compilação do OMNeT++</p>
+
+    <p>6.1. Preparação</p>
+    <ul>
+      <li>Acessar pasta <code class="language-plaintext highlighter-rouge">omnetpp/</code>.</li>
+      <li>Instalar todos os pacotes necessários indicados na documentação.
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> build-essential clang lld gdb bison flex perl <span class="se">\</span>
+  python3 python3-pip qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools <span class="se">\</span>
+  libqt5opengl5-dev libxml2-dev zlib1g-dev doxygen graphviz libwebkit2gtk-4.0-37 xdg-utils
+</code></pre></div>        </div>
+      </li>
+      <li>Alteração no arquivo <code class="language-plaintext highlighter-rouge">configure.user</code>: as flags <code class="language-plaintext highlighter-rouge">PREFER_CLANG=</code> e <code class="language-plaintext highlighter-rouge">WITH_QTENV=</code> devem ser alteradas de <strong><em>yes</em></strong> para <strong><em>no</em></strong>.</li>
+    </ul>
+
+    <p>6.2. Compilação (aproveite para tomar um café ☕, pois isso levará algum tempo…)</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">source </span>setenv
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ./configure
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> make <span class="nt">-j</span> <span class="si">$(</span><span class="nb">nproc</span><span class="si">)</span>
+</code></pre></div>    </div>
+    <p>Se tudo der certo, a última mensagem da compilação será: <em>Now you can type ‘omnetpp’ to start the IDE.</em></p>
+  </li>
+  <li>
+    <p>Compilação do SUMO</p>
+
+    <p>7.1. Acessar diretório <code class="language-plaintext highlighter-rouge">sumo/</code></p>
+
+    <p>7.2. Exportar variável de ambiente <code class="language-plaintext highlighter-rouge">SUMO_HOME</code></p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">export </span><span class="nv">SUMO_HOME</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PWD</span><span class="s2">"</span>
+</code></pre></div>    </div>
+
+    <p>7.3. Compilação</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">mkdir </span>build/cmake-build <span class="o">&amp;&amp;</span> <span class="nb">cd </span>build/cmake-build
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> cmake ../..
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> make <span class="nt">-j</span><span class="si">$(</span><span class="nb">nproc</span><span class="si">)</span>
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> make <span class="nb">install</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Compilação do cooperativeTSN</p>
+
+    <p>8.1. Acessar diretório <code class="language-plaintext highlighter-rouge">cooperativeTSN</code></p>
+
+    <p>8.2. Configurar todos os projetos</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">source </span>setenv
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ./configure
+</code></pre></div>    </div>
+    <p>8.3. Construa o projeto (pode tomar outro café ☕, pois isso também levará algum tempo…)</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> bear <span class="nt">--append</span> <span class="nt">--</span> make <span class="nt">-j</span> <span class="si">$(</span><span class="nb">nproc</span><span class="si">)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Criar arquivo <code class="language-plaintext highlighter-rouge">cooperative_tsn_run</code> no diretório <code class="language-plaintext highlighter-rouge">cooperativetsn/cooperative_tsn/bin</code></p>
+
+    <p>9.1. Acessar diretório <code class="language-plaintext highlighter-rouge">cooperative_tsn/bin/</code></p>
+
+    <p>9.2. Copiar modelo de arquivo</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">cp</span> /opt/cooperativetsn/cooperative_tsn/src/scripts/cooperative_tsn.in.py cooperative_tsn_run
+</code></pre></div>    </div>
+
+    <p>9.3. Adicionar informações abaixo no arquivo criado, especificamente entre as linhas <code class="language-plaintext highlighter-rouge">v-- contents of out/config.py go here</code> e <code class="language-plaintext highlighter-rouge">^-- contents of out/config.py go here</code>.</p>
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code> run_libs = ['../plexe/src/plexe', '../veins/subprojects/veins_inet/src/veins_inet', '../inet/src/INET', '../veins/src/veins', 'src/cooperative_tsn']
+ run_neds = ['../plexe/src/plexe', '../veins/subprojects/veins_inet/src/veins_inet', '../inet/src', '../veins/src/veins', 'src/cooperative_tsn']
+ run_excs = ['../inet/.nedexclusions']
+ run_imgs = ['../plexe/images', '../veins/subprojects/veins_inet/images', '../inet/images', '../veins/images', 'images']
+</code></pre></div>    </div>
+
+    <p>9.4. Torne o arquivo executável</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">chmod</span> +x cooperative_tsn_run
+</code></pre></div>    </div>
+
+    <p>9.5. Editar arquivo <code class="language-plaintext highlighter-rouge">freeway.rou.xml</code>, em <code class="language-plaintext highlighter-rouge">examples/platoon_with_plexe/sumocfg/</code>, removendo a flag <code class="language-plaintext highlighter-rouge">laneChangeModel="LC2013_CC"</code>.</p>
+
+    <p>9.6. Testar instalação com o comando <code class="language-plaintext highlighter-rouge">./run -c Sinusoidal</code> no diretório <code class="language-plaintext highlighter-rouge">/opt/cooperativetsn/cooperative_tsn/examples/platoon_with_plexe/</code>. A saída deve contar algo como:</p>
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code> OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+ Version: 6.0.3, build: 240223-17fcae5ef3, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+ See the license for distribution terms and warranty disclaimer
+
+ Setting up Cmdenv...
+
+ Loading NED files from ../../../plexe/src/plexe:  36
+ Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  10
+ Loading NED files from ../../../inet/src:  1139
+ Loading NED files from ../../../veins/src/veins:  44
+ Loading NED files from ../../src/cooperative_tsn:  10
+ Loading NED files from .:  2
+
+ Preparing for running configuration Sinusoidal, run #0...
+ Scenario: $nCars=5, $platoonSize=5, $nLanes=1, ...
+ Assigned runID=Sinusoidal-0-20250917-20:20:15-346339
+ Setting up network "Platooning"...
+ Initializing...
+
+ Running simulation...
+ ** Event #0   t=0   Elapsed: 1.1e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 4   present: 4   in FES: 4
+ Loading configuration ... done.
+ ** Event #256   t=1.0103050956   Elapsed: 1.31874s (0m 01s)  6% completed  (1% total)
+     Speed:     ev/sec=194.884   simsec/sec=0.766117   ev/simsec=254.379
+     Messages:  created: 702   present: 615   in FES: 38
+ ...
+</code></pre></div>    </div>
+  </li>
+  <li>Instalar ferramenta para testar conectividade via <em>ping</em>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt <span class="nb">install </span>iputils-ping net-tools <span class="nt">-y</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Instalar pacotes para comunicação gRPC, no diretório <code class="language-plaintext highlighter-rouge">cooperativetsn/cooperative_tsn/src/gRPC/</code></p>
+
+    <p>11.1. Criar <em>virtualenv</em> :</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">set</span> <span class="nt">-e</span>
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> venv .venv
+</code></pre></div>    </div>
+
+    <p>11.2. Acessar <em>virtualenv</em> :</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source</span> ./.venv/bin/activate
+</code></pre></div>    </div>
+
+    <p>11.3. Instalar <code class="language-plaintext highlighter-rouge">requirements</code> no <em>virtualenv</em> :</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+</code></pre></div>    </div>
+
+    <p>11.4 Sair do <em>virtualenv</em> :</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>deactivate
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>CTRL + D para fechar o container.</p>
+  </li>
+  <li>Feito!</li>
+</ol>
+
+<h4 id="2-instalação-do-tsnsched"><strong>2. Instalação do TSNSched</strong></h4>
+
+<ol>
+  <li>Criar arquivo <code class="language-plaintext highlighter-rouge">Dockerfile</code> com base <a href="https://github.com/Jannusch/TSNsched/blob/main/.devcontainer/Dockerfile">neste link</a>.
+    <ul>
+      <li><strong>Observação:</strong> mudar <code class="language-plaintext highlighter-rouge">FROM ubuntu:24.10</code> para <code class="language-plaintext highlighter-rouge">FROM ubuntu:24.04</code>.</li>
+    </ul>
+  </li>
+  <li>Criar imagem chamada <code class="language-plaintext highlighter-rouge">tsnsched</code> com base no <code class="language-plaintext highlighter-rouge">Dockerfile</code> (um terceiro café ☕ aqui? cuidado com excesso de cafeína 😅):
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>docker build <span class="nt">-t</span> tsnsched <span class="nb">.</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Verificar se a imagem foi criada, via comando <code class="language-plaintext highlighter-rouge">docker images</code>. O resultado deve ser algo como:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>REPOSITORY                                 TAG       IMAGE ID       CREATED          SIZE
+tsnsched                                   latest    ae2fb4115639   11 minutes ago   2.04GB
+dr.nsm.inf.tu-dresden.de/jannusch/wons25   latest    c74d154dec49   7 months ago     12.1GB
+</code></pre></div>    </div>
+  </li>
+  <li>Cria container para servidor TSN com a imagem recém criada. Nomeie esse container como <code class="language-plaintext highlighter-rouge">TSNSched</code>:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>docker run <span class="nt">-it</span> <span class="nt">--name</span> TSNSched ID_IMAGEM bash
+</code></pre></div>    </div>
+    <p>OBS: Nesse exemplo, <strong>ID_IMAGEM</strong> seria: <em>ae2fb4115639</em>.</p>
+  </li>
+  <li>Instalar pacotes necessários
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt <span class="nb">install </span>nano iputils-ping net-tools <span class="nt">-y</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Clonar repositório <code class="language-plaintext highlighter-rouge">git clone https://github.com/Jannusch/TSNsched.git</code>.</p>
+
+    <p>6.1. Acessar diretório <code class="language-plaintext highlighter-rouge">TSNsched/</code>.</p>
+
+    <p>6.2. Executar comandos de instalação</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ./gradlew tasks
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ./gradlew installDist
+</code></pre></div>    </div>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ./gradlew shadowJar
+</code></pre></div>    </div>
+  </li>
+  <li>Criar script <code class="language-plaintext highlighter-rouge">run_server.sh</code> para facilitar a execução
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+java <span class="nt">-jar</span> /opt/TSNsched/build/libs/TSNSCHED_New-1.0-SNAPSHOT-all.jar
+</code></pre></div>    </div>
+  </li>
+  <li>Permissão de execução ao script
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">chmod</span> +x run_server.sh
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>CTRL + D para fechar o container.</p>
+  </li>
+  <li>Feito!</li>
+</ol>
+
+<h4 id="3-execução"><strong>3. Execução</strong></h4>
+
+<ol>
+  <li>Listar containers com o comando <code class="language-plaintext highlighter-rouge">sudo docker ps -a</code>. O resultado será algo como:
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CONTAINER ID   IMAGE          COMMAND   CREATED          STATUS         PORTS     NAMES
+761e837ae78f   c74d154dec49   "bash"    17 minutes ago   Up 17 minutes            cooperativeTSN
+9e0826eb4ad7   ae2fb4115639   "bash"    2 hours ago      Up 2 hours               TSNSched
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Iniciar primeiro o container <code class="language-plaintext highlighter-rouge">cooperativeTSN</code>, para receber automaticamente o endereço IP 172.17.0.2.</p>
+
+    <ul>
+      <li>Comando para iniciar o container
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>docker start cooperativeTSN
+</code></pre></div>        </div>
+      </li>
+      <li>Comando para acessar o container
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>docker attach cooperativeTSN
+</code></pre></div>        </div>
+      </li>
+      <li>Atualizar variável de ambiente do OMNeT++
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">cd </span>omnetpp/
+</code></pre></div>        </div>
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">source </span>setenv
+</code></pre></div>        </div>
+      </li>
+      <li>Atualizar variável de ambiente do SUMO
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">cd </span>sumo/
+</code></pre></div>        </div>
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">export </span><span class="nv">SUMO_HOME</span><span class="o">=</span><span class="s2">"</span><span class="nv">$PWD</span><span class="s2">"</span>
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Iniciar em outro terminal o container <code class="language-plaintext highlighter-rouge">TSNSched</code>, que vai receber automaticamente o endereço IP 172.17.0.3.</p>
+
+    <ul>
+      <li>Comando para iniciar o container
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>docker start TSNSched
+</code></pre></div>        </div>
+      </li>
+      <li>Comando para acessar o container
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>docker attach TSNSched
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>No container <code class="language-plaintext highlighter-rouge">TSNSched</code>, executar o script <code class="language-plaintext highlighter-rouge">run_server.sh</code>. Aparecerá algo como:
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sep 17, 2025 9:22:32 PM com.tsnsched.grpc.TSNschedServer start
+INFO: Server started, listenig on 50051
+</code></pre></div>    </div>
+  </li>
+  <li>No container <code class="language-plaintext highlighter-rouge">cooperativeTSN</code>, executar o exemplo em <code class="language-plaintext highlighter-rouge">.../examples/platoon_with_plexe/</code>:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./run <span class="nt">-c</span> Platooning-TSN
+</code></pre></div>    </div>
+  </li>
+  <li>O resultado da execução será algo como:
+    <div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code> OMNeT++ Discrete Event Simulation  (C) 1992-2022 Andras Varga, OpenSim Ltd.
+ Version: 6.0.3, build: 240223-17fcae5ef3, edition: Academic Public License -- NOT FOR COMMERCIAL USE
+ See the license for distribution terms and warranty disclaimer
+
+ Setting up Cmdenv...
+
+ Loading NED files from ../../../plexe/src/plexe:  36
+ Loading NED files from ../../../veins/subprojects/veins_inet/src/veins_inet:  10
+ Loading NED files from ../../../inet/src:  1139
+ Loading NED files from ../../../veins/src/veins:  44
+ Loading NED files from ../../src/cooperative_tsn:  10
+ Loading NED files from .:  2
+
+ Preparing for running configuration Platooning-TSN, run #0...
+ Scenario: $nCars=5, $platoonSize=5, $nLanes=1, $ploegH=0.5, ....
+ Assigned runID=Platooning-TSN-0-20250917-23:45:05-548
+ Setting up network "Platooning"...
+ Initializing...
+
+ Running simulation...
+ ** Event #0   t=0   Elapsed: 1e-05s (0m 00s)  0% completed  (0% total)
+     Speed:     ev/sec=0   simsec/sec=0   ev/simsec=0
+     Messages:  created: 4   present: 4   in FES: 4
+ Loading configuration ... done.
+ ** Event #256   t=1.0103050956   Elapsed: 1.99488s (0m 01s)  6% completed  (1% total)
+     Speed:     ev/sec=128.83   simsec/sec=0.50645   ev/simsec=254.379
+     Messages:  created: 731   present: 644   in FES: 42
+ Interrupt signal received, trying to exit gracefully.5 ACT 5 BUF 0)                         
+ ** Event #21348   t=4.31   Elapsed: 2.49714s (0m 02s)  28% completed  (4% total)
+     Speed:     ev/sec=41992.5   simsec/sec=6.56975   ev/simsec=6391.8
+     Messages:  created: 20149   present: 1834   in FES: 44
+ ...
+</code></pre></div>    </div>
+  </li>
+  <li>Feito!</li>
+</ol>]]></content><author><name></name></author><category term="posts" /><category term="cooperative" /><category term="tsn" /><category term="omnet" /><category term="tutorial" /><category term="ptbr" /><summary type="html"><![CDATA[Versões de softwares]]></summary></entry><entry><title type="html">OMNeT++, Veins, and SUMO tutorial</title><link href="http://localhost:4000/blog/2024/omnet-veins-sumo/" rel="alternate" type="text/html" title="OMNeT++, Veins, and SUMO tutorial" /><published>2024-08-17T19:40:16-03:00</published><updated>2024-08-17T19:40:16-03:00</updated><id>http://localhost:4000/blog/2024/omnet-veins-sumo</id><content type="html" xml:base="http://localhost:4000/blog/2024/omnet-veins-sumo/"><![CDATA[<h4 id="1-versões-utilizadas-neste-tutorial"><strong>1. Versões utilizadas neste tutorial</strong></h4>
 
 <ul>
   <li>Ubuntu 22.04.4 LTS</li>
