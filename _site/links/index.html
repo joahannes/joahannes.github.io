@@ -279,12 +279,29 @@
   </header>
 
   <article>
-    <!-- - [Aula 00](https://docs.google.com/presentation/d/1IbNuJraYUUhoXTmR5CegzA3hEnS51cnH/edit?usp=sharing)
-- [Aula 01](https://docs.google.com/presentation/d/1GWLC9NPacEZMFOmodN8O0hMDIYS0lChkY5sJg92uAoA/edit?usp=sharing) -->
-<!-- 
-## Redes
+    <h1 id="1-preparando-o-ambiente">1. Preparando o ambiente</h1>
 
-- [Aula 00 - Redes](https://docs.google.com/presentation/d/1v6Me8942toxiMgiiDzYqXtrTqW39aeqO/edit?usp=sharing&ouid=109523613597121204784&rtpof=true&sd=true) -->
+<p>Crie um ambiente virtual para desenvolvimento:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> venv venv/
+</code></pre></div></div>
+
+<p>Acesse o ambiente virtual criado:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source </span>venv/bin/activate
+</code></pre></div></div>
+
+<p>Instale alguns pacotes importantes</p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>keras==3.11.3
+tensorflow==2.18.0
+flwr==1.22.0
+pandas
+</code></pre></div></div>
+
+<p>Instale o Flower Simulation</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">-U</span> <span class="s2">"flwr[simulation]"</span>
+</code></pre></div></div>
+
+<h1 id="2-arquivos">2. Arquivos</h1>
+<p><a href="/assets/codes/minicurso_fl_snct_2025.zip">LINK</a></p>
 
   </article>
 
@@ -310,7 +327,7 @@
 
       
       
-        Last updated: September 17, 2025.
+        Last updated: October 07, 2025.
       
     </p>
 </div>
