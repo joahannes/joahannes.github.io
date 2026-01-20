@@ -9,13 +9,15 @@ nav_order: 3
 
 ### Journal Reviews
 
-- IEEE Internet of Things Journal (2024)
-- Elsevier Computer Networks (2024)
-- ITU Journal on Future and Evolving Technologies (2024)
-- Journal of Internet Services and Applications (2024)
-- IEEE Transactions on Vehicular Technology (2023)
-- IEEE Transactions on Intelligent Transportation Systems (2023)
-- IEEE Systems Journal (2022)
+- Elsevier Neurocomputing
+- IEEE Internet of Things Journal
+- Elsevier Computer Networks
+- ITU Journal on Future and Evolving Technologies
+- Journal of Internet Services and Applications
+- IEEE Transactions on Vehicular Technology
+- IEEE Transactions on Services Computing
+- IEEE Transactions on Intelligent Transportation Systems
+- IEEE Systems Journal
 
 ### Conference Reviews
 

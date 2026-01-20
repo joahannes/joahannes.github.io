@@ -3,7 +3,7 @@ layout: page
 title: teaching
 permalink: /teaching/
 description: Syllabus
-nav: true
+nav: false
 nav_order: 2
 display_categories: [2025, 2024]
 horizontal: true

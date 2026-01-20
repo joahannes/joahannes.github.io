@@ -17,7 +17,7 @@
   
   
     
-      Announcement_16 | Joahannes B. D. da Costa
+      Video Streaming tutorial | Joahannes B. D. da Costa
     
   
 </title>
@@ -72,7 +72,7 @@
   <link rel="shortcut icon" href="/assets/img/pc.ico?87aaf3bec6b3cccfc03aa1df91fab503">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="http://localhost:4000/news/announcement_16/">
+<link rel="canonical" href="http://localhost:4000/blog/2025/videostreaming/">
 
 <!-- Dark Mode -->
 <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
@@ -276,19 +276,64 @@
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">Announcement_16</h1>
+    <h1 class="post-title">Video Streaming tutorial</h1>
     <p class="post-meta">
-      Created in July 02, 2024
+      Created in October 11, 2025
       
       
       
     </p>
     <p class="post-tags">
       
-        <i class="fa-solid fa-calendar fa-sm"></i> 2024
+        <a href="/blog/2025"> <i class="fa-solid fa-calendar fa-sm"></i> 2025 </a>
       
+      
+          ·  
+        
+          
+            <a href="/blog/tag/video"> <i class="fa-solid fa-hashtag fa-sm"></i> video</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/streaming"> <i class="fa-solid fa-hashtag fa-sm"></i> streaming</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/omnet"> <i class="fa-solid fa-hashtag fa-sm"></i> omnet</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/tutorial"> <i class="fa-solid fa-hashtag fa-sm"></i> tutorial</a>
+          
+          
+             
+          
+        
+          
+            <a href="/blog/tag/ptbr"> <i class="fa-solid fa-hashtag fa-sm"></i> ptbr</a>
+          
+          
+        
       
 
+      
+          ·  
+        
+          
+            <a href="/blog/category/posts">
+              <i class="fa-solid fa-tag fa-sm"></i> posts</a>
+          
+          
+        
       
     </p>
   </header>
@@ -296,7 +341,46 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>Happy to receive the awards for (i) Best Doctoral Thesis from the Institute of Computing and (ii) <a href="https://www.prpg.unicamp.br/en/noticias/conheca-os-vencedores-do-premio-tese-destaque-unicamp/" rel="external nofollow noopener" target="_blank">Honorable Mention in the Highlight Thesis Award 2024</a>, both from the University of Campinas (UNICAMP). 🥳</p>
+      <h2 id="em-construção"><code style="color : red; font-weight: bold;">EM CONSTRUÇÃO!</code></h2>
+
+<h4 id="versões-de-softwares"><strong>Versões de softwares</strong></h4>
+
+<ul>
+  <li>SO: Ubuntu 22.04.4 LTS</li>
+  <li>OMNeT++: 6.0.1</li>
+  <li>INET: 4.5.4</li>
+  <li>Veins: 5.2</li>
+  <li>FFMpeg:</li>
+</ul>
+
+<h4 id="1-instalação-do-omnet"><strong>1. Instalação do OMNeT++</strong></h4>
+
+<p>1.1. Preparação</p>
+
+<ul>
+  <li>
+    <p>Acessar pasta <code class="language-plaintext highlighter-rouge">omnetpp/</code>.</p>
+  </li>
+  <li>Instalar todos os pacotes necessários indicados na documentação.
+    <div class="language-bash highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> build-essential clang lld gdb bison flex perl <span class="se">\</span>
+python3 python3-pip qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools <span class="se">\</span>
+libqt5opengl5-dev libxml2-dev zlib1g-dev doxygen graphviz libwebkit2gtk-4.0-37 xdg-utils
+</code></pre></div>    </div>
+  </li>
+  <li>Alteração no arquivo <code class="language-plaintext highlighter-rouge">configure.user</code>: as flags <code class="language-plaintext highlighter-rouge">PREFER_CLANG=</code> e <code class="language-plaintext highlighter-rouge">WITH_QTENV=</code> devem ser alteradas de <strong><em>yes</em></strong> para <strong><em>no</em></strong>.</li>
+</ul>
+
+<p>1.2. Compilação (aproveite para tomar um café ☕, pois isso levará algum tempo…)</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source </span>setenv
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./configure
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make <span class="nt">-j</span> <span class="si">$(</span><span class="nb">nproc</span><span class="si">)</span>
+</code></pre></div></div>
+
+<p>Se tudo der certo, a última mensagem da compilação será: <em>Now you can type ‘omnetpp’ to start the IDE.</em></p>
 
     </div>
   </article>
@@ -319,12 +403,6 @@
     <!-- Adds related posts to the end of an article -->
     <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
     <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2025/videostreaming/">Video Streaming tutorial</a>
-  </li>
-
   
 
   <li class="my-2">
@@ -569,11 +647,11 @@
               window.location.href = "/blog/2024/omnet-veins-sumo/";
             
           },
-        },{id: "news-phd-student-amp-gt-phd-candidate",
-              title: 'PhD Student -&amp;gt; PhD Candidate 😀',
+        },{id: "news-phd-student-gt-phd-candidate",
+              title: 'PhD Student -&gt; PhD Candidate 😀',
               description: "",
-              section: "News",},{id: "news-i-joined-nsm-group-tu-dresden-as-the-visiting-researcher",
-              title: 'I joined NSM Group - TU Dresden as the Visiting Researcher 🇩🇪.',
+              section: "News",},{id: "news-i-joined-nsm-group-tu-dresden-https-www-cms-labs-org-as-the-visiting-researcher",
+              title: 'I joined [NSM Group - TU Dresden](https://www.cms-labs.org/) as the Visiting Researcher 🇩🇪.',
               description: "",
               section: "News",},{id: "news-i-presented-2-papers-in-the-brazilian-symposium-on-computer-networks-sbrc",
               title: 'I presented 2 papers in the Brazilian Symposium on Computer Networks (SBRC).',
@@ -584,23 +662,23 @@
               section: "News",},{id: "news-i-returned-to-brazil-after-a-1-year-sandwich-doctorate-at-the-tu-dresden-germany",
               title: 'I returned to Brazil 🇧🇷 after a 1-year sandwich doctorate at the TU...',
               description: "",
-              section: "News",},{id: "news-our-article-mobility-and-deadline-aware-task-scheduling-mechanism-for-vehicular-edge-computing-has-been-accepted-for-publication-in-ieee-transactions-on-intelligent-transportation-systems-journal",
-              title: 'Our article “Mobility and Deadline-aware Task Scheduling Mechanism for Vehicular Edge Computing” has...',
+              section: "News",},{id: "news-our-article-quot-mobility-and-deadline-aware-task-scheduling-mechanism-for-vehicular-edge-computing-https-ieeexplore-ieee-org-document-10141528-quot-has-been-accepted-for-publication-in-ieee-transactions-on-intelligent-transportation-systems-journal",
+              title: 'Our article &quot;[Mobility and Deadline-aware Task Scheduling Mechanism for Vehicular Edge Computing](https://ieeexplore.ieee.org/document/10141528)&quot; has...',
               description: "",
-              section: "News",},{id: "news-our-article-harmonic-shapley-values-in-market-games-for-resource-allocation-in-vehicular-clouds-has-been-accepted-for-publication-in-elsevier-ad-hoc-networks-journal",
-              title: 'Our article “HARMONIC: Shapley Values in Market Games for Resource Allocation in Vehicular...',
+              section: "News",},{id: "news-our-article-quot-harmonic-shapley-values-in-market-games-for-resource-allocation-in-vehicular-clouds-https-www-sciencedirect-com-science-article-pii-s1570870523001440-quot-has-been-accepted-for-publication-in-elsevier-ad-hoc-networks-journal",
+              title: 'Our article &quot;[HARMONIC: Shapley Values in Market Games for Resource Allocation in Vehicular...',
               description: "",
               section: "News",},{id: "news-paper-accepted-for-ieee-vtc-fall-2023-the-conference-will-be-held-in-hong-kong",
               title: 'Paper accepted for IEEE VTC-Fall 2023. The conference will be held in Hong...',
               description: "",
-              section: "News",},{id: "news-i-defended-my-doctoral-thesis-mobility-aware-resource-management-for-vehicular-edge-computing-i-now-have-a-phd-in-computer-science",
-              title: 'I defended my doctoral thesis “Mobility-aware Resource Management for Vehicular Edge Computing”. I...',
+              section: "News",},{id: "news-i-defended-my-doctoral-thesis-quot-mobility-aware-resource-management-for-vehicular-edge-computing-assets-pdf-tese-joahannes-vfinal-pdf-quot-i-now-have-a-phd-in-computer-science",
+              title: 'I defended my doctoral thesis &quot;[Mobility-aware Resource Management for Vehicular Edge Computing](/assets/pdf/Tese_Joahannes_vFinal.pdf)&quot;. I...',
               description: "",
-              section: "News",},{id: "news-our-article-mobility-aware-vehicular-cloud-formation-mechanism-for-vehicular-edge-computing-environments-has-been-accepted-for-publication-in-elsevier-ad-hoc-networks-journal",
-              title: 'Our article “Mobility-aware Vehicular Cloud Formation Mechanism for Vehicular Edge Computing Environments” has...',
+              section: "News",},{id: "news-our-article-quot-mobility-aware-vehicular-cloud-formation-mechanism-for-vehicular-edge-computing-environments-https-www-sciencedirect-com-science-article-pii-s1570870523002202-quot-has-been-accepted-for-publication-in-elsevier-ad-hoc-networks-journal",
+              title: 'Our article &quot;[Mobility-aware Vehicular Cloud Formation Mechanism for Vehicular Edge Computing Environments](https://www.sciencedirect.com/science/article/pii/S1570870523002202)&quot; has...',
               description: "",
-              section: "News",},{id: "news-our-article-adaptive-client-selection-with-personalization-for-communication-efficient-federated-learning-has-been-accepted-for-publication-in-elsevier-ad-hoc-networks-journal",
-              title: 'Our article “Adaptive client selection with personalization for communication efficient Federated Learning” has...',
+              section: "News",},{id: "news-our-article-quot-adaptive-client-selection-with-personalization-for-communication-efficient-federated-learning-https-www-sciencedirect-com-science-article-pii-s1570870524000738-quot-has-been-accepted-for-publication-in-elsevier-ad-hoc-networks-journal",
+              title: 'Our article &quot;[Adaptive client selection with personalization for communication efficient Federated Learning](https://www.sciencedirect.com/science/article/pii/S1570870524000738)&quot; has...',
               description: "",
               section: "News",},{id: "news-paper-accepted-for-ieee-international-conference-on-distributed-computing-in-smart-systems-and-the-internet-of-things-dcoss-iot-2024-the-conference-will-be-held-in-abu-dhabi-united-arab-emirates",
               title: 'Paper accepted for IEEE International Conference on Distributed Computing in Smart Systems and...',
@@ -608,13 +686,13 @@
               section: "News",},{id: "news-3-papers-accepted-for-sbrc-2024-the-conference-will-be-held-in-niterói-rio-de-janeiro-brazil",
               title: '3 papers accepted for SBRC 2024. The conference will be held in Niterói,...',
               description: "",
-              section: "News",},{id: "news-paper-accepted-for-ieee-symposium-on-computers-and-communications-iscc-2024-the-conference-will-be-held-in-paris-france",
-              title: 'Paper accepted for IEEE Symposium on Computers and Communications (ISCC) 2024. The conference...',
+              section: "News",},{id: "news-paper-accepted-for-ieee-symposium-on-computers-and-communications-iscc-2024-https-2024-ieee-iscc-org-the-conference-will-be-held-in-paris-france",
+              title: 'Paper accepted for [IEEE Symposium on Computers and Communications (ISCC) 2024](https://2024.ieee-iscc.org/). The conference...',
               description: "",
-              section: "News",},{id: "news-paper-accepted-for-ieee-international-conference-on-future-internet-of-things-and-cloud-ficloud-2024-the-conference-will-be-held-in-vienna-austria",
-              title: 'Paper accepted for IEEE International Conference on Future Internet of Things and Cloud...',
+              section: "News",},{id: "news-paper-accepted-for-ieee-international-conference-on-future-internet-of-things-and-cloud-ficloud-2024-https-ficloud-org-2024-the-conference-will-be-held-in-vienna-austria",
+              title: 'Paper accepted for [IEEE International Conference on Future Internet of Things and Cloud...',
               description: "",
-              section: "News",},{id: "news-happy-to-receive-the-awards-for-i-best-doctoral-thesis-from-the-institute-of-computing-and-ii-honorable-mention-in-the-highlight-thesis-award-2024-both-from-the-university-of-campinas-unicamp",
+              section: "News",},{id: "news-happy-to-receive-the-awards-for-i-best-doctoral-thesis-from-the-institute-of-computing-and-ii-honorable-mention-in-the-highlight-thesis-award-2024-https-www-prpg-unicamp-br-en-noticias-conheca-os-vencedores-do-premio-tese-destaque-unicamp-both-from-the-university-of-campinas-unicamp",
               title: 'Happy to receive the awards for (i) Best Doctoral Thesis from the Institute...',
               description: "",
               section: "News",},{id: "news-paper-accepted-for-ieee-international-conference-on-federated-learning-technologies-and-applications-flta-2024-https-flta-conference-org-the-conference-will-be-held-in-valencia-spain",
