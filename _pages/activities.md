@@ -9,6 +9,7 @@ nav_order: 3
 
 ### Journal Reviews
 
+- IEEE Transactions on Intelligent Transportation Systems
 - Elsevier Neurocomputing
 - IEEE Internet of Things Journal
 - Elsevier Computer Networks
@@ -16,7 +17,6 @@ nav_order: 3
 - Journal of Internet Services and Applications
 - IEEE Transactions on Vehicular Technology
 - IEEE Transactions on Services Computing
-- IEEE Transactions on Intelligent Transportation Systems
 - IEEE Systems Journal
 
 ### Conference Reviews
@@ -33,7 +33,9 @@ nav_order: 3
 
 ### Technical Programme Committee
 
-- [SBRC 2025](https://sbrc.sbc.org.br/2025/) (Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos - SBRC), May 2025, Natal, Brazil.
+- [IEEE VTC2026-Spring](https://vtc2026spring.trackchair.com/track/2445) (IEEE 103rd Vehicular Technology Conference - VTC2026-Spring), June 2026, Nice, France.
+- [SBRC 2026](https://sbrc.sbc.org.br/2026/) (Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos - SBRC), May 2026, Praia do Forte, Bahia, Brazil.
+- [SBRC 2025](https://sbrc.sbc.org.br/2025/) (Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos - SBRC), May 2025, Natal, Rio Grande do Norte, Brazil.
 - [CoUrb 2024](https://sbrc.sbc.org.br/2024/) (VIII Workshop on Urban Computing), May 2024, Niterói, Brazil.
 - [WTG 2024](https://sbrc.sbc.org.br/2024/) (VII Workshop de Trabalhos de Iniciação Científica e de Graduação), May 2024, Niterói, Brazil.
 - [SBCUP 2024](https://csbc.sbc.org.br/2024/sbcup/) (16o Brazilian Symposium on Ubiquitous and Pervasive Computing), July 2024, Brasília, Brazil.
