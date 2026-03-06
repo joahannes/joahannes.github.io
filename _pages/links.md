@@ -7,6 +7,11 @@ nav: false
 nav_order: 10
 ---
 
+# Palestra IC 2026
+
+[LINK](https://docs.google.com/presentation/d/15KUUJj5Wbr_Ve4qeStdo4OJ3jGWkjZrGQy20onJbSQQ/edit?usp=sharing)
+
+
 # 1. Preparando o ambiente
 
 Crie um ambiente virtual para desenvolvimento:
