@@ -7,10 +7,12 @@ nav: true
 nav_order: 5
 ---
 
+**IMPORTANT: The new institutional contact information will be added to this page soon.**
+
 ###### **Email**:
 
-- [joahannes.costa@unifesp.br](mailto:joahannes.costa@unifesp.br)
-- [joahannes@gmail.com](mailto:joahannes@gmail.com) (use only if first address does not work)
+- [joahannes@gmail.com](mailto:joahannes@gmail.com)
+<!-- - [joahannes@gmail.com](mailto:joahannes@gmail.com) (use only if first address does not work) -->
 
 ###### **Phones (Office)**:
 
@@ -50,6 +52,7 @@ I have discontinued the use of a number of e-mail addresses. Please use my canon
 
 Do not use these outdated e-mail addresses.
 
+- joahannes.costa@unifesp.br
 - joahannes.costa@ic.unicamp.br
 - jbdc@unicamp.br
 - joahannes@lrc.ic.unicamp.br
