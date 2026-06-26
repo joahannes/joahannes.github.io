@@ -11,20 +11,20 @@ nav_order: 5
 
 ###### **Email**:
 
-- [joahannes@gmail.com](mailto:joahannes@gmail.com)
-<!-- - [joahannes@gmail.com](mailto:joahannes@gmail.com) (use only if first address does not work) -->
+- [joahannes@usp.br](mailto:joahannes@usp.br)
+- [joahannes@gmail.com](mailto:joahannes@gmail.com) (use only if first address does not work)
 
 ###### **Phones (Office)**:
 
-- +55 11 3385-4100 &rarr; Extension number: 9782
+- TBD
 
 ###### **Address**:
 
 If we set up an appointment, this will be at:
 
-- Room 106 (first floor)
-- Institute of Science and Technology (ICT)
-- Av. Cesare Monsueto Giulio Lattes, 1201 - Eugênio de Melo, São José dos Campos - SP, 12247-014, Brazil  ([see on Google Maps](https://maps.app.goo.gl/Y4MW9UUYDKgL2Urs8))
+- Room C2-38 (second floor)
+- Department of Computer Engineering and Digital Systems (PCS)
+- Av. Prof. Luciano Gualberto, 158, Butantã, São Paulo, SP, 05508-010, Brazil ([see on Google Maps](https://maps.app.goo.gl/CQJVs9xQRu9DMiMi8))
 
 ###### **Times of Unavailability**:
 
@@ -32,11 +32,7 @@ If we set up an appointment, this will be at:
 
 Regular Duties (meetings, seminars, ...)
 
-- Tuesdays:
-    - 13:30 - 15:30
-- Thursdays:
-    - 13:30 - 15:30
-    - 19:00 - 23:00
+- TBD
 
 Extended Travel (conferences, meetings, ...)
 

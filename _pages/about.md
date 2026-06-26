@@ -23,7 +23,7 @@ I was Postdoctoral Researcher at the [Artificial Intelligence and Cognitive Arch
 
 During the doctorate, I spent one year (Research Internships Abroad - FAPESP) as a visiting researcher with the [Networked Systems Modeling](https://www.cms-labs.org/) research group of Professor [Christoph Sommer](https://www.cms-labs.org/people/sommer/) in the Faculty of Computer Science at [Technische Universität Dresden (TU Dresden)](https://tu-dresden.de/ing/informatik), Germany 🇩🇪, from March 2022 to March 2023.
 
-Before joining UNICAMP, I earned a BS in Information Systems (2015) and an MS in Computer Science (2018), both from the [Federal University of Pará (UFPA)][2].
+Before joining UNICAMP, I earned a BS in Information Systems (2015) and an MS in Computer Science (2018), both from the Federal University of Pará (UFPA).
 
 I am a researcher, investigating complex problems related to:
 
@@ -34,4 +34,4 @@ I am a researcher, investigating complex problems related to:
 
 See more in the [detailed CV](http://lattes.cnpq.br/4761632587625158).
 
-<!-- [ha-index: 89](https://www.irif.fr/~haberm/haindex.html) -->
+[ha-index: 89](https://www.irif.fr/~haberm/haindex.html).
