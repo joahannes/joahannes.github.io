@@ -12,7 +12,6 @@ nav_order: 5
 ###### **Email**:
 
 - [joahannes@usp.br](mailto:joahannes@usp.br)
-- [joahannes@gmail.com](mailto:joahannes@gmail.com) (use only if first address does not work)
 
 ###### **Phones (Office)**:
 
