@@ -33,5 +33,3 @@ I am a researcher, investigating complex problems related to:
 * Open Radio Access Networks (starting research on this topic...)
 
 See more in the [detailed CV](http://lattes.cnpq.br/4761632587625158).
-
-[ha-index: 89](https://www.irif.fr/~haberm/haindex.html).
