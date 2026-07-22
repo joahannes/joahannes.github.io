@@ -7,8 +7,6 @@ nav: true
 nav_order: 5
 ---
 
-**IMPORTANT: The new institutional contact information will be added to this page soon.**
-
 ###### **Email**:
 
 - [joahannes@usp.br](mailto:joahannes@usp.br)
