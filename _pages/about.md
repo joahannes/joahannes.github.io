@@ -6,7 +6,7 @@ subtitle: Assistant Professor @ University of São Paulo (USP), São Paulo, Braz
 
 profile:
   align: right
-  image: joahannes.jpg
+  image: foto.jpg
   image_circular: true # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
