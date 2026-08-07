@@ -13,13 +13,13 @@ nav_order: 5
 
 ###### **Phones (Office)**:
 
-- TBD
+- (11) 3091-5166
 
 ###### **Address**:
 
 If we set up an appointment, this will be at:
 
-- Room C2-38 (second floor)
+- Room C2-43B (second floor)
 - Department of Computer Engineering and Digital Systems (PCS)
 - Av. Prof. Luciano Gualberto, 158, Butantã, São Paulo, SP, 05508-010, Brazil ([see on Google Maps](https://maps.app.goo.gl/CQJVs9xQRu9DMiMi8))
 
@@ -29,7 +29,14 @@ If we set up an appointment, this will be at:
 
 Regular Duties (meetings, seminars, ...)
 
-- TBD
+- Mondays
+    - 13:10 - 14:50
+    - 16:00 - 17:40
+- Wednesdays
+    - 15:00 - 16:40
+- Thursdays
+    - 10:20 - 12:00
+
 
 Extended Travel (conferences, meetings, ...)
 
