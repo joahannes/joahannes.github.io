@@ -32,6 +32,6 @@ I am a researcher, investigating complex problems related to:
 * Distributed Learning
 * Open Radio Access Networks
 
-📑 See more details in my [CV](http://lattes.cnpq.br/4761632587625158).
+📑 See more details in my [CV (Lattes)](http://lattes.cnpq.br/4761632587625158).
 
 🏆 Here is the [list of awards and recognitions](/awards) I have received throughout my academic journey.
