@@ -7,12 +7,14 @@ nav: false
 nav_order: 10
 ---
 
-# Palestra IC 2026
+[IEEE VTCFall-2026](https://docs.google.com/presentation/d/1QpwJBPhdmSg4k7Qnm5xtM6GodIGBtAVeXxJ4Yhuuu4g/edit?usp=sharing)
 
-[LINK](https://docs.google.com/presentation/d/15KUUJj5Wbr_Ve4qeStdo4OJ3jGWkjZrGQy20onJbSQQ/edit?usp=sharing)
+<!-- # Palestra IC 2026
+
+[LINK](https://docs.google.com/presentation/d/15KUUJj5Wbr_Ve4qeStdo4OJ3jGWkjZrGQy20onJbSQQ/edit?usp=sharing) -->
 
 
-# 1. Preparando o ambiente
+<!-- # 1. Preparando o ambiente
 
 Crie um ambiente virtual para desenvolvimento:
 ```bash
@@ -38,4 +40,4 @@ pip install -U "flwr[simulation]"
 ```
 
 # 2. Arquivos
-[LINK](/assets/codes/minicurso_fl_snct_2025.zip)
+[LINK](/assets/codes/minicurso_fl_snct_2025.zip) -->
