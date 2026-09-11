@@ -7,37 +7,4 @@ nav: false
 nav_order: 10
 ---
 
-[IEEE VTCFall-2026](https://docs.google.com/presentation/d/1QpwJBPhdmSg4k7Qnm5xtM6GodIGBtAVeXxJ4Yhuuu4g/edit?usp=sharing)
-
-<!-- # Palestra IC 2026
-
-[LINK](https://docs.google.com/presentation/d/15KUUJj5Wbr_Ve4qeStdo4OJ3jGWkjZrGQy20onJbSQQ/edit?usp=sharing) -->
-
-
-<!-- # 1. Preparando o ambiente
-
-Crie um ambiente virtual para desenvolvimento:
-```bash
-python3 -m venv venv/
-```
-
-Acesse o ambiente virtual criado:
-```bash
-source venv/bin/activate
-```
-
-Instale alguns pacotes importantes
-```text
-keras==3.11.3
-tensorflow==2.18.0
-flwr==1.22.0
-pandas
-```
-
-Instale o Flower Simulation
-```bash
-pip install -U "flwr[simulation]"
-```
-
-# 2. Arquivos
-[LINK](/assets/codes/minicurso_fl_snct_2025.zip) -->
+TBD
