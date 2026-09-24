@@ -8,6 +8,7 @@ nav_order: 4
 pretty_table: true
 ---
 
+| 2026 | Unicamp Outstanding Alumni Award - Graduate category <br> | [LINK](https://joahannes.github.io/assets/pdf/premios/egresso2026.jpg) |
 | 2026 | Best Paper Awards - Workshop de Trabalhos de Iniciação Científica e de Graduação (WTICG) - XXVI Brazilian Symposium on Cybersecurity (SBSeg 2026) <br> Title: ["Defesa Distribuída: Avaliação do Aprendizado Federado para Detecção de Ataques em Sistemas Operacionais"](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44501) | [LINK](https://joahannes.github.io/assets/pdf/premios/WTICG_SBSeg2026_MelhorArtigo.pdf) |
 | 2026 | Honorable Mention - XLIV Brazilian Symposium on Computer Networks and Distributed Systems (SBRC) 2026 <br> Title: ["Agente VAMOS! Planejamento de Rotas Veiculares Cientes de Contexto Semântico com Agentes de LLM"](https://sol.sbc.org.br/index.php/sbrc/article/view/42277) | [LINK](https://joahannes.github.io/assets/pdf/premios/SBRC2026_MencaoHonrosa.pdf) |
 | 2026 | Outstanding Reviewer Award, 10th Workshop on Urban Computing (CoUrb) 2026 - XLIV SBRC <br> | [LINK](https://joahannes.github.io/assets/pdf/premios/CoUrb2026_Revisoes.pdf) |
